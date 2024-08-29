@@ -1,0 +1,1792 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "description": "1/4 in Endmill ",
+            "expressions": {
+                "tool_description": "'1/4 in Endmill '",
+                "tool_diameter": ".25 in",
+                "tool_fluteLength": ".75 in",
+                "tool_material": "'carbide'",
+                "tool_number": "103",
+                "tool_numberOfFlutes": "3",
+                "tool_unit": "'inches'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 0.9448818897637796,
+                "LCF": 0.75,
+                "NOF": 3,
+                "OAL": 1.4173228346456694,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 0.9448818897637796,
+                "shoulder-length": 0.8267716535433072
+            },
+            "guid": "432e9878-1b2a-4c72-a257-12101f4ccc47",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 103,
+                "length-offset": 103,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 103,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "51.5 inpm",
+                            "tool_feedPlunge": "11.2 inpm",
+                            "tool_spindleSpeed": "6870 rpm",
+                            "tool_stepdown": ".0870 in",
+                            "tool_stepover": "(.85*.25) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.001630276564774381,
+                        "f_z": 0.00249878699660359,
+                        "guid": "ffdfa808-c0c8-4630-9caa-5a5aec2a899e",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 6870,
+                        "n_ramp": 6870,
+                        "name": "Face - 6061",
+                        "stepdown": 0.087,
+                        "stepover": 0.2125,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 449.640448545039,
+                        "v_f": 51.5,
+                        "v_f_leadIn": 51.5,
+                        "v_f_leadOut": 51.5,
+                        "v_f_plunge": 11.2,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 51.5
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.0017 in",
+                            "tool_feedPlunge": "11.5 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": ".0625 in",
+                            "tool_stepover": "(.3*.25) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0011274509803921569,
+                        "f_z": 0.0017,
+                        "guid": "9fcfe0b2-a67d-4be9-aff5-e264a19d6366",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Profile - 6061",
+                        "stepdown": 0.0625,
+                        "stepover": 0.075,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 667.588438887831,
+                        "v_f": 52.02,
+                        "v_f_leadIn": 52.02,
+                        "v_f_leadOut": 52.02,
+                        "v_f_plunge": 11.5,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 52.02
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "27.1 inpm",
+                            "tool_feedPlunge": "8.7 inpm",
+                            "tool_spindleSpeed": "5380 rpm",
+                            "tool_stepdown": ".7 in",
+                            "tool_stepover": "(.228*.25) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0016171003717472116,
+                        "f_z": 0.0016790582403965304,
+                        "guid": "5dcc8632-df36-49b4-b811-f55510647c35",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5380,
+                        "n_ramp": 5380,
+                        "name": "Pocket - 6061",
+                        "stepdown": 0.7,
+                        "stepover": 0.057,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 352.120176589856,
+                        "v_f": 27.1,
+                        "v_f_leadIn": 27.1,
+                        "v_f_leadOut": 27.1,
+                        "v_f_plunge": 8.7,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 27.1
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "3/8 in endmill with 0.03\" radius",
+            "expressions": {
+                "tool_bodyLength": "1.5 in",
+                "tool_description": "'3/8 in endmill with 0.03\" radius'",
+                "tool_diameter": ".375 in",
+                "tool_fluteLength": "1in",
+                "tool_material": "'carbide'",
+                "tool_number": "106",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "1.55 in",
+                "tool_shoulderLength": "1.25 in",
+                "tool_unit": "'inches'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.375,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 3,
+                "OAL": 1.55,
+                "SFDM": 0.375,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-length": 1.25
+            },
+            "guid": "0d6d071d-bade-44b9-9914-838dc5615158",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 106,
+                "length-offset": 106,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 106,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "34.9 inpm",
+                            "tool_feedPlunge": "11.2 inpm",
+                            "tool_spindleSpeed": "4660 rpm",
+                            "tool_stepdown": ".13 in",
+                            "tool_stepover": "(.714*.375) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0024034334763948493,
+                        "f_z": 0.002496423462088698,
+                        "guid": "2ceda7ca-9e95-4862-95b3-c4a82ce17e53",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 4660,
+                        "n_ramp": 4660,
+                        "name": "Face - 6061",
+                        "stepdown": 0.13,
+                        "stepover": 0.26775,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 457.4944301790136,
+                        "v_f": 34.9,
+                        "v_f_leadIn": 34.9,
+                        "v_f_leadOut": 34.9,
+                        "v_f_plunge": 11.2,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 34.9
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20.3 inpm",
+                            "tool_feedPlunge": "6.5 inpm",
+                            "tool_spindleSpeed": "3750 rpm",
+                            "tool_stepdown": ".95 in",
+                            "tool_stepover": "(.228*.375) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.001733333333333333,
+                        "f_z": 0.001804444444444444,
+                        "guid": "2f42441e-301a-4c58-bcd2-013e7120c055",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 3750,
+                        "n_ramp": 3750,
+                        "name": "Profile - 6061",
+                        "stepdown": 0.95,
+                        "stepover": 0.0855,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 368.1553890925538,
+                        "v_f": 20.3,
+                        "v_f_leadIn": 20.3,
+                        "v_f_leadOut": 20.3,
+                        "v_f_plunge": 6.5,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 20.3
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20.3 inpm",
+                            "tool_feedPlunge": "6.5 inpm",
+                            "tool_spindleSpeed": "3750 rpm",
+                            "tool_stepdown": ".95 in",
+                            "tool_stepover": "(.228*.375) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.001733333333333333,
+                        "f_z": 0.001804444444444444,
+                        "guid": "8efd47a9-be61-408d-b187-7a8e36e3f651",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 3750,
+                        "n_ramp": 3750,
+                        "name": "Pocket - 6061",
+                        "stepdown": 0.95,
+                        "stepover": 0.0855,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 368.1553890925538,
+                        "v_f": 20.3,
+                        "v_f_leadIn": 20.3,
+                        "v_f_leadOut": 20.3,
+                        "v_f_plunge": 6.5,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 20.3
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "21.2 inpm",
+                            "tool_feedPlunge": "6.8 inpm",
+                            "tool_spindleSpeed": "2960 rpm",
+                            "tool_stepdown": "1 in",
+                            "tool_stepover": "(.181*.375) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.002297297297297297,
+                        "f_z": 0.0023873873873873873,
+                        "guid": "5251ed16-efc2-448b-825b-4fe62762914c",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 2960,
+                        "n_ramp": 2960,
+                        "name": "Pocket - 7075",
+                        "stepdown": 1,
+                        "stepover": 0.067875,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 290.59732045705584,
+                        "v_f": 21.2,
+                        "v_f_leadIn": 21.2,
+                        "v_f_leadOut": 21.2,
+                        "v_f_plunge": 6.8,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 21.2
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/8EM ",
+            "expressions": {
+                "tool_bodyLength": "1.5 in",
+                "tool_description": "'1/8EM '",
+                "tool_diameter": ".125 in",
+                "tool_fluteLength": "1 in",
+                "tool_material": "'carbide'",
+                "tool_number": "101",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "2 in",
+                "tool_shoulderLength": "1.25 in",
+                "tool_unit": "'inches'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1,
+                "NOF": 3,
+                "OAL": 2,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-length": 1.25
+            },
+            "guid": "27ad127b-8891-4cb0-b38f-e872cb3b6c56",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 101,
+                "length-offset": 101,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 101,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "29.8 inpm",
+                            "tool_feedPlunge": "9.5 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": ".26 in",
+                            "tool_stepover": ".0285 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000931372549019608,
+                        "f_z": 0.000973856209150327,
+                        "guid": "f6c86e73-6ef6-4158-88bf-8866db8f3f76",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Pocket - Delrin",
+                        "stepdown": 0.26,
+                        "stepover": 0.0285,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 333.79421944391544,
+                        "v_f": 29.8,
+                        "v_f_leadIn": 29.8,
+                        "v_f_leadOut": 29.8,
+                        "v_f_plunge": 9.5,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 29.8
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "76.5 inpm",
+                            "tool_feedPlunge": "24.5 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": ".043 in",
+                            "tool_stepover": ".1062 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.002401960784313726,
+                        "f_z": 0.0025,
+                        "guid": "02af99a0-b822-41bb-a84a-99212c70fa45",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Face - 6061",
+                        "stepdown": 0.043,
+                        "stepover": 0.1062,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 333.79421944391544,
+                        "v_f": 76.5,
+                        "v_f_leadIn": 76.5,
+                        "v_f_leadOut": 76.5,
+                        "v_f_plunge": 24.5,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 76.5
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "29.8 inpm",
+                            "tool_feedPlunge": "9.5 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": ".375 in",
+                            "tool_stepover": ".0285 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000931372549019608,
+                        "f_z": 0.000973856209150327,
+                        "guid": "9c47e6c7-1d5c-4995-84d4-8f262a7ed7fc",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Profile/Pocket - 6061",
+                        "stepdown": 0.375,
+                        "stepover": 0.0285,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 333.79421944391544,
+                        "v_f": 29.8,
+                        "v_f_leadIn": 29.8,
+                        "v_f_leadOut": 29.8,
+                        "v_f_plunge": 9.5,
+                        "v_f_ramp": 13.123359580052496,
+                        "v_f_transition": 29.8
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/2 EM a-brand osg",
+            "expressions": {
+                "tool_bodyLength": "3 in",
+                "tool_description": "'1/2 EM a-brand osg'",
+                "tool_diameter": ".5 in",
+                "tool_fluteLength": "2 in",
+                "tool_material": "'carbide'",
+                "tool_number": "108",
+                "tool_overallLength": "4 in",
+                "tool_shoulderLength": "2 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.5,
+                "HAND": true,
+                "LB": 3,
+                "LCF": 2,
+                "NOF": 4,
+                "OAL": 4,
+                "SFDM": 0.5,
+                "assemblyGaugeLength": 3,
+                "shoulder-length": 2
+            },
+            "guid": "98f8bd7b-70cf-46c5-9eba-570bc32b6250",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 108,
+                "length-offset": 108,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 108,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20 inpm",
+                            "tool_stepover": "(.2*.5) in",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.001,
+                        "guid": "4aa4c446-6e94-4806-828d-5d2b3f31eb59",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5000,
+                        "n_ramp": 5000,
+                        "name": "Profile - 6061",
+                        "stepover": 0.1,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": true,
+                        "v_c": 654.4984694978734,
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 20
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/4 ball mill 2fl",
+            "expressions": {
+                "tool_description": "'1/4 ball mill 2fl'",
+                "tool_material": "'carbide'",
+                "tool_number": "105",
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 0.875
+            },
+            "guid": "b6310076-fd0c-4273-9e22-c91eb3c2b67e",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 105,
+                "length-offset": 105,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 105,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "12.3 inpm",
+                            "tool_feedPlunge": "3.9 inpm",
+                            "tool_spindleSpeed": "4650 rpm"
+                        },
+                        "f_n": 0.0008387096774193548,
+                        "f_z": 0.0013225806451612903,
+                        "guid": "2fd8640c-3c36-4bae-981e-f9a7ee2639bb",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 4650,
+                        "n_ramp": 4650,
+                        "name": "Slot - steel",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 304.3417883165112,
+                        "v_f": 12.3,
+                        "v_f_leadIn": 12.3,
+                        "v_f_leadOut": 12.3,
+                        "v_f_plunge": 3.9,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 12.3
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/8 endmill 4fl",
+            "expressions": {
+                "tool_description": "'1/8 endmill 4fl'",
+                "tool_diameter": ".125 in",
+                "tool_material": "'carbide'",
+                "tool_number": "102"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 4,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 0.875
+            },
+            "guid": "c2fef4b8-42cf-412c-ac6b-f26552767fad",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 102,
+                "length-offset": 102,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 102,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "28.7 inpm",
+                            "tool_feedPlunge": "9.2 inpm",
+                            "tool_spindleSpeed": "9210 rpm",
+                            "tool_stepdown": ".375 in",
+                            "tool_stepover": "(.15*.125) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000998914223669924,
+                        "f_z": 0.000779044516829533,
+                        "guid": "a4ea1d4f-6afc-427e-8322-e9eca3878454",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 9210,
+                        "n_ramp": 9210,
+                        "name": "Pocket - steel",
+                        "stepdown": 0.375,
+                        "stepover": 0.01875,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 301.39654520377076,
+                        "v_f": 28.7,
+                        "v_f_leadIn": 28.7,
+                        "v_f_leadOut": 28.7,
+                        "v_f_plunge": 9.2,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 28.7
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/4 in a-brand osg",
+            "expressions": {
+                "tool_bodyLength": "2 in",
+                "tool_description": "'1/4 in a-brand osg'",
+                "tool_fluteLength": "1.25 in",
+                "tool_material": "'carbide'",
+                "tool_number": "104",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "3 in",
+                "tool_shoulderLength": "1.5 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 2,
+                "LCF": 1.25,
+                "NOF": 3,
+                "OAL": 3,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 2,
+                "shoulder-length": 1.5
+            },
+            "guid": "519940ee-9f07-4262-9df3-fbd1f8e01479",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 104,
+                "length-offset": 104,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 104,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.00173224043715847 in",
+                            "tool_spindleSpeed": "10000 rpm",
+                            "tool_stepdown": ".25 in",
+                            "tool_stepover": ".25 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0013333333333333333,
+                        "f_z": 0.00173224043715847,
+                        "guid": "58b62acd-1c76-4a5e-9b7d-9a9b04e91b2f",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Face - 6061",
+                        "stepdown": 0.25,
+                        "stepover": 0.25,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 654.4984694978734,
+                        "v_f": 51.9672131147541,
+                        "v_f_leadIn": 51.9672131147541,
+                        "v_f_leadOut": 51.9672131147541,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 51.9672131147541
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.0021653333333333333 in",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": ".75 in",
+                            "tool_stepover": "(.1*.25) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.0021653333333333333,
+                        "guid": "0644a27d-4bb6-45a6-91cc-777781981895",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Profile/Pocket - 6061 - 0.75DOC",
+                        "stepdown": 0.75,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 667.588438887831,
+                        "v_f": 66.2592,
+                        "v_f_leadIn": 66.2592,
+                        "v_f_leadOut": 66.2592,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 66.2592
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.00216575591985428 in",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "1 in",
+                            "tool_stepover": "(.1*.25) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.00216575591985428,
+                        "guid": "94e92a96-911c-47de-916c-3fb423022131",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Profile/Pocket - 6061 - 1.00DOC",
+                        "stepdown": 1,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 667.588438887831,
+                        "v_f": 66.27213114754097,
+                        "v_f_leadIn": 66.27213114754097,
+                        "v_f_leadOut": 66.27213114754097,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 66.27213114754097
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "3/8 a-brand osg",
+            "expressions": {
+                "tool_bodyLength": "1.75 in",
+                "tool_description": "'3/8 a-brand osg'",
+                "tool_diameter": "(3/8) in",
+                "tool_fluteLength": "1.5 in",
+                "tool_material": "'carbide'",
+                "tool_number": "107",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "2 in",
+                "tool_shoulderLength": "1.5625 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.375,
+                "HAND": true,
+                "LB": 1.75,
+                "LCF": 1.5,
+                "NOF": 3,
+                "OAL": 2,
+                "SFDM": 0.375,
+                "assemblyGaugeLength": 1.75,
+                "shoulder-length": 1.5625
+            },
+            "guid": "090dcfb3-efdd-4c54-aab9-4507ae3979fe",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 107,
+                "length-offset": 107,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 107,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.002519125683060109 in",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": ".375 in",
+                            "tool_stepover": ".375 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.002519125683060109,
+                        "guid": "17bda294-e35d-4dfd-9df3-060d97846ab5",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Face - 6061",
+                        "stepdown": 0.375,
+                        "stepover": 0.375,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1001.3826583317464,
+                        "v_f": 77.08524590163934,
+                        "v_f_leadIn": 77.08524590163934,
+                        "v_f_leadOut": 77.08524590163934,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 77.08524590163934
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.00315028901734104 in",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "((3*.375)) in",
+                            "tool_stepover": "(.1*.375) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.00315028901734104,
+                        "guid": "1dbc645a-4f9a-4fa7-b7cb-18e1b4a0782b",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Profile/Pocket - 6061 - 3DOC",
+                        "stepdown": 1.125,
+                        "stepover": 0.0375,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1001.3826583317464,
+                        "v_f": 96.39884393063583,
+                        "v_f_leadIn": 96.39884393063583,
+                        "v_f_leadOut": 96.39884393063583,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 96.39884393063583
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.003150273224043715 in",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "(4*.375) in",
+                            "tool_stepover": "(.1*.375) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.003150273224043715,
+                        "guid": "3a24a42d-d487-4e52-ac1a-0af6d03d01db",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Profile/Pocket - 6061 - 4DOC",
+                        "stepdown": 1.5,
+                        "stepover": 0.0375,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1001.3826583317464,
+                        "v_f": 96.3983606557377,
+                        "v_f_leadIn": 96.3983606557377,
+                        "v_f_leadOut": 96.3983606557377,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 96.3983606557377
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".1503 Drill",
+            "expressions": {
+                "tool_description": "'.1503 Drill'",
+                "tool_diameter": ".1503 in",
+                "tool_number": "111"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.1503,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.1503,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "dd302bcb-ef42-40f2-bf41-675fe2fc8fce",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 111,
+                "length-offset": 111,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 111,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "20.7 inpm",
+                            "tool_spindleSpeed": "5550 rpm",
+                            "tool_useFeedPerRevolution": "false"
+                        },
+                        "guid": "c4c6990d-08a4-48b3-923a-7ab114de93bf",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5550,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 218.38388632347744,
+                        "v_f_plunge": 20.7,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "10-32 tap",
+            "expressions": {
+                "tool_description": "'10-32 tap'",
+                "tool_diameter": ".192 in",
+                "tool_number": "113",
+                "tool_numberOfFlutes": "2",
+                "tool_threadPitch": "(1/32) in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.192,
+                "LB": 2,
+                "LCF": 0.8,
+                "NOF": 2,
+                "OAL": 2,
+                "SFDM": 0.192,
+                "TP": 0.03125,
+                "assemblyGaugeLength": 2,
+                "shoulder-length": 1.2
+            },
+            "guid": "c2cdb0c4-b580-4326-acc7-d61e96694fb1",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 113,
+                "length-offset": 113,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 113,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_spindleSpeed": "525 rpm"
+                        },
+                        "guid": "a44c3984-8118-41f0-9a03-38214d70d995",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 525,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "v_c": 26.38937829015426
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".201 Drill",
+            "expressions": {
+                "tool_description": "'.201 Drill'",
+                "tool_diameter": ".201 in",
+                "tool_number": "109"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.201,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.201,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "0b0a9ac7-c23e-4830-bc44-b97b8a3a8387",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 109,
+                "length-offset": 109,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 109,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "21 inpm",
+                            "tool_spindleSpeed": "5500 rpm"
+                        },
+                        "guid": "6d8cd807-0bb8-46aa-bd01-751ba7ce0849",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 289.4192232119597,
+                        "v_f_plunge": 21,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".193 Drill",
+            "expressions": {
+                "tool_description": "'.193 Drill'",
+                "tool_diameter": ".193 in",
+                "tool_number": "110"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.193,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.193,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "0539c1a0-e6fc-4565-8009-d84cde2df6ff",
+            "last_modified": 1706394482138,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 110,
+                "length-offset": 110,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 110,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "21 inpm",
+                            "tool_spindleSpeed": "5500 rpm"
+                        },
+                        "guid": "ec34a0f8-4c60-4bb7-8c20-a3dff0aac30d",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 277.9000501487971,
+                        "v_f_plunge": 21,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "1/4-20",
+            "expressions": {
+                "tool_description": "'1/4-20'",
+                "tool_diameter": ".25 in",
+                "tool_lengthOffset": "112",
+                "tool_number": "112",
+                "tool_threadPitch": "(1/20) in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "LB": 2,
+                "LCF": 0.8,
+                "NOF": 3,
+                "OAL": 2,
+                "SFDM": 0.25,
+                "TP": 0.05,
+                "assemblyGaugeLength": 2,
+                "shoulder-length": 1.2
+            },
+            "guid": "9befdff7-e0ad-4b28-b647-16ea8dd254dd",
+            "last_modified": 1706394678135,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 112,
+                "length-offset": 112,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 112,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_spindleSpeed": "525 rpm"
+                        },
+                        "guid": "5f29eef4-b8ba-4e48-8cd2-8ef7bc43bba2",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 525,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "v_c": 34.36116964863836
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "8-32 Tap",
+            "expressions": {
+                "tool_description": "'8-32 Tap'",
+                "tool_diameter": ".1503 in",
+                "tool_number": "114",
+                "tool_numberOfFlutes": "2",
+                "tool_threadPitch": "(1/32) in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.1503,
+                "LB": 2,
+                "LCF": 0.8,
+                "NOF": 2,
+                "OAL": 2,
+                "SFDM": 0.1503,
+                "TP": 0.03125,
+                "assemblyGaugeLength": 2,
+                "shoulder-length": 1.2
+            },
+            "guid": "a037ef9c-84a6-4a2b-bd9d-65f4081ceb19",
+            "last_modified": 1706394765541,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 114,
+                "length-offset": 114,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 114,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_spindleSpeed": "525 rpm"
+                        },
+                        "guid": "c8392561-c7e4-44fd-8db1-3427969375f0",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 525,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "v_c": 20.65793519276138
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".159 Drill ",
+            "expressions": {
+                "tool_description": "'.159 Drill '",
+                "tool_diameter": ".159 in",
+                "tool_number": "115"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.159,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.159,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "a6dae33a-9aa8-4511-b066-5eb0c341e194",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 115,
+                "length-offset": 115,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 115,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "21 inpm",
+                            "tool_spindleSpeed": "5550 rpm"
+                        },
+                        "guid": "7786805b-7bcd-421d-b320-3ddec27efba5",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5550,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 231.02486976335936,
+                        "v_f_plunge": 21,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".136",
+            "expressions": {
+                "tool_description": "'.136'",
+                "tool_diameter": ".136 in",
+                "tool_number": "116"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.136,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.136,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "55b74640-8576-471e-bdb8-1b79b01ba869",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 116,
+                "length-offset": 116,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 116,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "23 inpm",
+                            "tool_spindleSpeed": "5550 rpm"
+                        },
+                        "guid": "7e6a5f0a-02a5-4226-80c0-5987400e9f0c",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5550,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 197.606177910798,
+                        "v_f_plunge": 23,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".172 Drill",
+            "expressions": {
+                "tool_description": "'.172 Drill'",
+                "tool_number": "120"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.4,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.4,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "d045062a-f216-4b2b-9a91-735f59c17090",
+            "last_modified": 1707784164541,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 120,
+                "length-offset": 120,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 120,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "23 inpm",
+                            "tool_spindleSpeed": "5500 rpm"
+                        },
+                        "guid": "f8ca4a25-0c76-4c51-b0f1-815712c6f399",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 575.9586531581288,
+                        "v_f_plunge": 23,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".172 Drill",
+            "expressions": {
+                "tool_description": "'.172 Drill'",
+                "tool_number": "120"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.4,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.4,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "766d9a34-1101-41d6-a711-8a977401d1af",
+            "last_modified": 1708904141719,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 120,
+                "length-offset": 120,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 120,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "d045062a-f216-4b2b-9a91-735f59c17090",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "23 inpm",
+                            "tool_spindleSpeed": "5500 rpm"
+                        },
+                        "guid": "f8ca4a25-0c76-4c51-b0f1-815712c6f399",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 575.9586531581288,
+                        "v_f_plunge": 23,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".172 Drill",
+            "expressions": {
+                "tool_description": "'.172 Drill'",
+                "tool_number": "120"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.4,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.4,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "2228f717-bad3-4484-ba44-65c042dda805",
+            "last_modified": 1708904197887,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 120,
+                "length-offset": 120,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 120,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "48ad96c1-0f7b-45b1-ba83-d76e4608e870",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "23 inpm",
+                            "tool_spindleSpeed": "5500 rpm"
+                        },
+                        "guid": "f8ca4a25-0c76-4c51-b0f1-815712c6f399",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 575.9586531581288,
+                        "v_f_plunge": 23,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "extended 1/4\"",
+            "expressions": {
+                "tool_bodyLength": "1.5 in",
+                "tool_description": "'extended 1/4\"'",
+                "tool_fluteLength": "1.25in",
+                "tool_material": "'carbide'",
+                "tool_number": "118",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "2 in",
+                "tool_shoulderLength": "1.25 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 1.25,
+                "NOF": 3,
+                "OAL": 2,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-length": 1.25
+            },
+            "guid": "e0408b55-8eaa-418d-9a57-3fbc6c69e14b",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 118,
+                "length-offset": 118,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 118,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "51.967 inpm",
+                            "tool_spindleSpeed": "10000 rpm",
+                            "tool_stepdown": ".25 in",
+                            "tool_stepover": ".25in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0013333333333333333,
+                        "f_z": 0.001732233333333333,
+                        "guid": "3eb8df6e-ad7c-4d7c-9652-1a53ef773d75",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default preset",
+                        "stepdown": 0.25,
+                        "stepover": 0.25,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 654.4984694978734,
+                        "v_f": 51.967,
+                        "v_f_leadIn": 51.967,
+                        "v_f_leadOut": 51.967,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 51.967
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "ti coated",
+            "description": "",
+            "expressions": {
+                "tool_diameter": ".125 in",
+                "tool_material": "'ti coated'",
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 0.875
+            },
+            "guid": "01bb1ddf-3caa-46bc-add1-f1ef56c69d7f",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 124,
+                "length-offset": 124,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 124,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.0009738562091503269 in",
+                            "tool_rampSpindleSpeed": "10000 rpm",
+                            "tool_spindleSpeed": "10000 rpm",
+                            "tool_stepdown": ".26 in",
+                            "tool_stepover": ".0285 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0013333333333333333,
+                        "f_z": 0.000973856209150327,
+                        "guid": "f13a2762-18e5-407a-9a82-b636dcc24294",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default preset",
+                        "stepdown": 0.26,
+                        "stepover": 0.0285,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 327.2492347489367,
+                        "v_f": 19.477124183006534,
+                        "v_f_leadIn": 19.477124183006534,
+                        "v_f_leadOut": 19.477124183006534,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 19.477124183006534
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        }
+    ],
+    "version": 26
+}
