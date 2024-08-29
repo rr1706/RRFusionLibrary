@@ -50,7 +50,8 @@
                             "tool_feedPlunge": "10 inpm",
                             "tool_feedRamp": "20 inpm",
                             "tool_spindleSpeed": "24000 rpm",
-                            "tool_stepdown": "0.075 in",
+                            "tool_stepdown": "tool_diameter*0.5",
+                            "tool_stepover": "tool_diameter*0.3",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
@@ -64,7 +65,7 @@
                         "n": 24000,
                         "n_ramp": 24000,
                         "name": "Aluminum Pocket",
-                        "stepdown": 0.075,
+                        "stepdown": 0.078,
                         "stepover": 0.0468,
                         "tool-coolant": "disabled",
                         "use-stepdown": true,
@@ -84,8 +85,8 @@
                             "tool_feedPlunge": "10 inpm",
                             "tool_feedRamp": "20 inpm",
                             "tool_spindleSpeed": "24000 rpm",
-                            "tool_stepdown": "0.075 in",
-                            "tool_stepover": "0.156 in",
+                            "tool_stepdown": "tool_diameter*0.5",
+                            "tool_stepover": "tool_diameter",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
@@ -99,7 +100,7 @@
                         "n": 24000,
                         "n_ramp": 24000,
                         "name": "Aluminum Contour",
-                        "stepdown": 0.075,
+                        "stepdown": 0.078,
                         "stepover": 0.156,
                         "tool-coolant": "disabled",
                         "use-stepdown": true,
@@ -111,6 +112,348 @@
                         "v_f_plunge": 10,
                         "v_f_ramp": 20,
                         "v_f_transition": 18
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "6mm 1FL DLC",
+            "expressions": {
+                "tool_description": "'6mm 1FL DLC'",
+                "tool_diameter": "0.2345 in",
+                "tool_manualToolChange": "true",
+                "tool_material": "'carbide'",
+                "tool_number": "2",
+                "tool_numberOfFlutes": "1",
+                "tool_unit": "'inches'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.2345,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 1,
+                "OAL": 1.5,
+                "SFDM": 0.2345,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 0.875
+            },
+            "guid": "cb17b9d5-db7b-442f-9fb8-5d8b6f60f013",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "50 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "25 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter*0.5",
+                            "tool_stepover": "tool_diameter*0.3",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0020833333333333333,
+                        "guid": "f5139143-14ed-4d8a-82d4-0acbb9d0e94d",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Pocket",
+                        "stepdown": 0.11725,
+                        "stepover": 0.07035,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1473.4069545336129,
+                        "v_f": 50,
+                        "v_f_leadIn": 50,
+                        "v_f_leadOut": 50,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 50
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedRamp": "18 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter*0.5",
+                            "tool_stepover": "tool_diameter",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0005555555555555556,
+                        "f_z": 0.00125,
+                        "guid": "e8d0eedb-832e-498b-97c3-3445bb74b38b",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Contour",
+                        "stepdown": 0.11725,
+                        "stepover": 0.2345,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1473.4069545336129,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 18,
+                        "v_f_transition": 30
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "10mm 1FL DLC",
+            "expressions": {
+                "tool_description": "'10mm 1FL DLC'",
+                "tool_diameter": "0.392 in",
+                "tool_material": "'carbide'",
+                "tool_numberOfFlutes": "1",
+                "tool_unit": "'inches'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.392,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 1,
+                "OAL": 1.5,
+                "SFDM": 0.392,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 0.875
+            },
+            "guid": "bae2f63f-a5a0-4a73-be8d-074755d4f09f",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 7,
+                "length-offset": 7,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 7,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "56in/min",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "17000 rpm",
+                            "tool_stepdown": "tool_diameter*0.5",
+                            "tool_stepover": "tool_diameter*0.3",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0008823529411764706,
+                        "f_z": 0.0032941176470588232,
+                        "guid": "e8d0eedb-832e-498b-97c3-3445bb74b38b",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 17000,
+                        "n_ramp": 17000,
+                        "name": "Aluminum Pocket",
+                        "stepdown": 0.196,
+                        "stepover": 0.1176,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1744.6311202935317,
+                        "v_f": 56,
+                        "v_f_leadIn": 56,
+                        "v_f_leadOut": 56,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 56
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20 inpm",
+                            "tool_feedPlunge": "7.5 inpm",
+                            "tool_feedRamp": "10 inpm",
+                            "tool_spindleSpeed": "17000 rpm",
+                            "tool_stepdown": "tool_diameter*0.5",
+                            "tool_stepover": "tool_diameter",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0004411764705882353,
+                        "f_z": 0.0011764705882352942,
+                        "guid": "a36b7543-c0f4-41f8-905d-8e70492fdcae",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 17000,
+                        "n_ramp": 17000,
+                        "name": "Aluminum Contour",
+                        "stepdown": 0.196,
+                        "stepover": 0.392,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1744.6311202935317,
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 7.5,
+                        "v_f_ramp": 10,
+                        "v_f_transition": 20
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "3/16\" 1FL 63-767",
+            "expressions": {
+                "tool_bodyLength": "1.5 in",
+                "tool_description": "'3/16\" 1FL 63-767'",
+                "tool_diameter": "0.1865 in",
+                "tool_fluteLength": "0.75 in",
+                "tool_material": "'carbide'",
+                "tool_numberOfFlutes": "1",
+                "tool_overallLength": "2 in",
+                "tool_shaftDiameter": "0.25 in",
+                "tool_shoulderLength": "1 in",
+                "tool_unit": "'inches'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.1865,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.75,
+                "NOF": 1,
+                "OAL": 2,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-length": 1
+            },
+            "guid": "f31caded-86e3-45bb-9a03-21b94967de39",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "120 inpm",
+                            "tool_feedPlunge": "30 inpm",
+                            "tool_feedRamp": "60 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter",
+                            "tool_stepover": "tool_diameter*0.3",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.005,
+                        "guid": "3d3ce892-ec4d-493a-9319-8c545cb4257b",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Polycarbonate Pocket",
+                        "stepdown": 0.1865,
+                        "stepover": 0.05595,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1171.8140597889928,
+                        "v_f": 120,
+                        "v_f_leadIn": 120,
+                        "v_f_leadOut": 120,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 60,
+                        "v_f_transition": 120
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "80 inpm",
+                            "tool_feedPlunge": "20 inpm",
+                            "tool_feedRamp": "40 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter",
+                            "tool_stepover": "tool_diameter*0.3",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.003333333333333333,
+                        "guid": "e31ae1a3-bf79-4926-b9b4-312c08a1f582",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Polycarbonate Contour",
+                        "stepdown": 0.1865,
+                        "stepover": 0.05595,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1171.8140597889928,
+                        "v_f": 80,
+                        "v_f_leadIn": 80,
+                        "v_f_leadOut": 80,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 40,
+                        "v_f_transition": 80
                     }
                 ]
             },
