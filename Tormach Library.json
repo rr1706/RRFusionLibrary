@@ -1260,6 +1260,68 @@
             "type": "flat end mill",
             "unit": "millimeters",
             "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".193 Drill",
+            "expressions": {
+                "tool_description": "'.193 Drill'",
+                "tool_diameter": ".193 in",
+                "tool_number": "110"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.193,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.193,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "dfe6a961-8f82-4954-abbe-e4788fa2559a",
+            "last_modified": 1725149601688,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 110,
+                "length-offset": 110,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 110,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "21 inpm",
+                            "tool_spindleSpeed": "5500 rpm"
+                        },
+                        "guid": "ec34a0f8-4c60-4bb7-8c20-a3dff0aac30d",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 5500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 277.9000501487971,
+                        "v_f_plunge": 21,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
     "version": 26
