@@ -1158,7 +1158,7 @@
             "expressions": {
                 "tool_description": "'.193 Drill'",
                 "tool_diameter": ".193 in",
-                "tool_number": "110"
+                "tool_number": "122"
             },
             "geometry": {
                 "CSP": false,
@@ -1174,20 +1174,18 @@
                 "shoulder-length": 3.600000000000001
             },
             "guid": "0539c1a0-e6fc-4565-8009-d84cde2df6ff",
-            "last_modified": 1706394482138,
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 110,
-                "length-offset": 110,
+                "diameter-offset": 122,
+                "length-offset": 122,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 110,
+                "number": 122,
                 "turret": 0
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -1708,7 +1706,76 @@
             "type": "drill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/4 ball mill 2fl",
+            "expressions": {
+                "tool_description": "'1/4 ball mill 2fl'",
+                "tool_material": "'carbide'",
+                "tool_number": "123",
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 0.875
+            },
+            "guid": "6bd7ebdf-77f5-41d4-84ae-ce850c1feb1a",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 123,
+                "length-offset": 123,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 123,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.0015 in",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_spindleSpeed": "10200 rpm"
+                        },
+                        "f_n": 0.000980392156862745,
+                        "f_z": 0.0015,
+                        "guid": "2fd8640c-3c36-4bae-981e-f9a7ee2639bb",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Slot - steel",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 667.588438887831,
+                        "v_f": 30.6,
+                        "v_f_leadIn": 30.6,
+                        "v_f_leadOut": 30.6,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 30.6
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
-    "version": 25
+    "version": 26
 }
