@@ -107,36 +107,37 @@
                     },
                     {
                         "expressions": {
-                            "tool_feedCutting": "27.1 inpm",
-                            "tool_feedPlunge": "8.7 inpm",
-                            "tool_spindleSpeed": "5380 rpm",
-                            "tool_stepdown": ".7 in",
-                            "tool_stepover": "(.228*.25) in",
+                            "tool_feedPerTooth": "0.0017 in",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "1.5*tool_diameter",
+                            "tool_stepover": "0.2*tool_diameter",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
-                        "f_n": 0.0016171003717472116,
-                        "f_z": 0.0016790582403965304,
+                        "f_n": 0.000980392156862745,
+                        "f_z": 0.0017,
                         "guid": "5dcc8632-df36-49b4-b811-f55510647c35",
                         "material": {
                             "category": "all",
                             "query": ""
                         },
-                        "n": 5380,
-                        "n_ramp": 5380,
+                        "n": 10200,
+                        "n_ramp": 10200,
                         "name": "Pocket - 6061",
-                        "stepdown": 0.7,
-                        "stepover": 0.057,
+                        "stepdown": 0.375,
+                        "stepover": 0.05,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
-                        "v_c": 352.120176589856,
-                        "v_f": 27.1,
-                        "v_f_leadIn": 27.1,
-                        "v_f_leadOut": 27.1,
-                        "v_f_plunge": 8.7,
-                        "v_f_ramp": 13.123359580052496,
-                        "v_f_transition": 27.1
+                        "v_c": 667.588438887831,
+                        "v_f": 52.02,
+                        "v_f_leadIn": 52.02,
+                        "v_f_leadOut": 52.02,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 52.02
                     }
                 ]
             },
@@ -1773,6 +1774,111 @@
                 ]
             },
             "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "1/8in EM Long way",
+            "expressions": {
+                "tool_description": "'1/8in EM Long way'",
+                "tool_diameter": ".125 in",
+                "tool_number": "100",
+                "tool_numberOfFlutes": "3"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 3,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 0.875
+            },
+            "guid": "a324190c-f800-4930-9bde-be99f2d0adab",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 100,
+                "length-offset": 100,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 100,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "30 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "tool_diameter*1.5",
+                            "tool_stepover": "(.125*.05) in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.000980392156862745,
+                        "guid": "a32efece-29a9-4d2b-a67e-7cc9722b4594",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Default preset",
+                        "stepdown": 0.1875,
+                        "stepover": 0.00625,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 333.79421944391544,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 30
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "10 inpm",
+                            "tool_feedPlunge": "4 inpm",
+                            "tool_feedRamp": "7 inpm",
+                            "tool_spindleSpeed": "7500 rpm",
+                            "tool_stepover": "((.125*.10)) in",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0005333333333333333,
+                        "f_z": 0.0004444444444444444,
+                        "guid": "86ccf635-9562-4307-9662-af89967c48b7",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 7500,
+                        "n_ramp": 7500,
+                        "name": "Default preset 1",
+                        "stepover": 0.0125,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": true,
+                        "v_c": 245.43692606170256,
+                        "v_f": 10,
+                        "v_f_leadIn": 10,
+                        "v_f_leadOut": 10,
+                        "v_f_plunge": 4,
+                        "v_f_ramp": 7,
+                        "v_f_transition": 10
+                    }
+                ]
+            },
+            "type": "flat end mill",
             "unit": "inches",
             "vendor": ""
         }
