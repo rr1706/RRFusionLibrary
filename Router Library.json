@@ -26,6 +26,7 @@
                 "OAL": 1.25,
                 "SFDM": 0.156,
                 "assemblyGaugeLength": 0.5,
+                "shoulder-diameter": 0.156,
                 "shoulder-length": 0.5
             },
             "guid": "e8a597bb-aaaa-47f0-9fb1-2b0abb21552c",
@@ -60,7 +61,8 @@
                         "guid": "0686efac-f3a6-48cf-965f-101e903f339b",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -95,7 +97,8 @@
                         "guid": "0abdbfcb-7d1d-4314-ab16-fd5dd6345342",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -130,7 +133,8 @@
                         "guid": "50451ecc-5d51-4230-8b31-e7a2c1e7e6bd",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -165,7 +169,8 @@
                         "guid": "7668208b-64c4-407a-a15c-fd8754dcc2d3",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -211,6 +216,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.2345,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.2345,
                 "shoulder-length": 0.875
             },
             "guid": "cb17b9d5-db7b-442f-9fb8-5d8b6f60f013",
@@ -245,7 +251,8 @@
                         "guid": "f5139143-14ed-4d8a-82d4-0acbb9d0e94d",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -278,7 +285,8 @@
                         "guid": "e8d0eedb-832e-498b-97c3-3445bb74b38b",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -322,6 +330,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.392,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.392,
                 "shoulder-length": 0.875
             },
             "guid": "bae2f63f-a5a0-4a73-be8d-074755d4f09f",
@@ -355,7 +364,8 @@
                         "guid": "e8d0eedb-832e-498b-97c3-3445bb74b38b",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 16500,
                         "n_ramp": 16500,
@@ -389,7 +399,8 @@
                         "guid": "a36b7543-c0f4-41f8-905d-8e70492fdcae",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 16500,
                         "n_ramp": 16500,
@@ -438,6 +449,7 @@
                 "OAL": 2,
                 "SFDM": 0.25,
                 "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25,
                 "shoulder-length": 1
             },
             "guid": "f31caded-86e3-45bb-9a03-21b94967de39",
@@ -472,7 +484,8 @@
                         "guid": "3d3ce892-ec4d-493a-9319-8c545cb4257b",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -507,7 +520,8 @@
                         "guid": "e31ae1a3-bf79-4926-b9b4-312c08a1f582",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -557,6 +571,7 @@
                 "OAL": 1.25,
                 "SFDM": 0.124,
                 "assemblyGaugeLength": 0.5,
+                "shoulder-diameter": 0.124,
                 "shoulder-length": 0.5
             },
             "guid": "f758e622-771b-43f3-87a5-76e4b3adb01e",
@@ -591,7 +606,8 @@
                         "guid": "0686efac-f3a6-48cf-965f-101e903f339b",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -626,7 +642,8 @@
                         "guid": "0abdbfcb-7d1d-4314-ab16-fd5dd6345342",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -661,7 +678,8 @@
                         "guid": "50451ecc-5d51-4230-8b31-e7a2c1e7e6bd",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -696,7 +714,8 @@
                         "guid": "7668208b-64c4-407a-a15c-fd8754dcc2d3",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 24000,
                         "n_ramp": 24000,
@@ -719,7 +738,266 @@
             "type": "flat end mill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".193 Drill",
+            "expressions": {
+                "tool_bodyLength": "1 in",
+                "tool_description": "'.193 Drill'",
+                "tool_diameter": "0.079 in",
+                "tool_fluteLength": "0.75 in",
+                "tool_number": "122",
+                "tool_overallLength": "2 in",
+                "tool_shoulderLength": "1 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.079,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 2,
+                "SFDM": 0.079,
+                "SIG": 118,
+                "assemblyGaugeLength": 1,
+                "shoulder-length": 1
+            },
+            "guid": "c5d4f3be-bd35-451e-9436-4fcb5a9cff51",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 122,
+                "length-offset": 122,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 122,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "20 inpm",
+                            "tool_spindleSpeed": "6000 rpm"
+                        },
+                        "guid": "ec34a0f8-4c60-4bb7-8c20-a3dff0aac30d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 6000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 124.0929098167968,
+                        "v_f_plunge": 20,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "4mm 3FL DLC",
+            "expressions": {
+                "tool_bodyLength": "0.5 in",
+                "tool_description": "'4mm 3FL DLC'",
+                "tool_diameter": "0.156 in",
+                "tool_fluteLength": "0.375 in",
+                "tool_manualToolChange": "true",
+                "tool_material": "'carbide'",
+                "tool_number": "1",
+                "tool_numberOfFlutes": "3",
+                "tool_overallLength": "1.25 in",
+                "tool_shoulderLength": "0.5 in",
+                "tool_unit": "'inches'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.156,
+                "HAND": true,
+                "LB": 0.5,
+                "LCF": 0.375,
+                "NOF": 3,
+                "OAL": 1.25,
+                "SFDM": 0.156,
+                "assemblyGaugeLength": 0.5,
+                "shoulder-diameter": 0.156,
+                "shoulder-length": 0.5
+            },
+            "guid": "5d360f71-536b-4d3f-8345-6a6df1e4e4a3",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "25 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter",
+                            "tool_stepover": "tool_diameter*0.15",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00041666666666666664,
+                        "guid": "7ad2cf47-0850-42ac-9811-7ca33fd38336",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Bore",
+                        "stepdown": 0.156,
+                        "stepover": 0.0234,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 980.1769079200154,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 30
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "80 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "25 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter",
+                            "tool_stepover": "tool_diameter*0.15",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0011111111111111111,
+                        "guid": "0686efac-f3a6-48cf-965f-101e903f339b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Pocket",
+                        "stepdown": 0.156,
+                        "stepover": 0.0234,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 980.1769079200154,
+                        "v_f": 80,
+                        "v_f_leadIn": 80,
+                        "v_f_leadOut": 80,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 80
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedPerTooth": "0.005 in",
+                            "tool_feedPlunge": "30 inpm",
+                            "tool_feedRamp": "60 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter",
+                            "tool_stepover": "tool_diameter*0.2",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.005,
+                        "guid": "50451ecc-5d51-4230-8b31-e7a2c1e7e6bd",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Poly Pocket",
+                        "stepdown": 0.156,
+                        "stepover": 0.0312,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 980.1769079200154,
+                        "v_f": 360,
+                        "v_f_leadIn": 360,
+                        "v_f_leadOut": 360,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 60,
+                        "v_f_transition": 360
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "25 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter",
+                            "tool_stepover": "tool_diameter*0.15",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00041666666666666664,
+                        "guid": "14bc9cb2-2efb-4175-8928-5b7b1939c2a9",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Finish Pass Cont",
+                        "stepdown": 0.156,
+                        "stepover": 0.0234,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 980.1769079200154,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 25,
+                        "v_f_transition": 30
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
-    "version": 26
+    "version": 28
 }
