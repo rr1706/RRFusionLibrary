@@ -22,6 +22,7 @@
                 "OAL": 1.4173228346456694,
                 "SFDM": 0.25,
                 "assemblyGaugeLength": 0.9448818897637796,
+                "shoulder-diameter": 0.25,
                 "shoulder-length": 0.8267716535433072
             },
             "guid": "432e9878-1b2a-4c72-a257-12101f4ccc47",
@@ -54,7 +55,8 @@
                         "guid": "ffdfa808-c0c8-4630-9caa-5a5aec2a899e",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 6870,
                         "n_ramp": 6870,
@@ -87,7 +89,8 @@
                         "guid": "9fcfe0b2-a67d-4be9-aff5-e264a19d6366",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -121,7 +124,8 @@
                         "guid": "5dcc8632-df36-49b4-b811-f55510647c35",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -170,6 +174,7 @@
                 "OAL": 1.55,
                 "SFDM": 0.375,
                 "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.375,
                 "shoulder-length": 1.25
             },
             "guid": "0d6d071d-bade-44b9-9914-838dc5615158",
@@ -202,7 +207,8 @@
                         "guid": "2ceda7ca-9e95-4862-95b3-c4a82ce17e53",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 4660,
                         "n_ramp": 4660,
@@ -235,7 +241,8 @@
                         "guid": "2f42441e-301a-4c58-bcd2-013e7120c055",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 3750,
                         "n_ramp": 3750,
@@ -268,7 +275,8 @@
                         "guid": "8efd47a9-be61-408d-b187-7a8e36e3f651",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 3750,
                         "n_ramp": 3750,
@@ -301,7 +309,8 @@
                         "guid": "5251ed16-efc2-448b-825b-4fe62762914c",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 2960,
                         "n_ramp": 2960,
@@ -350,6 +359,7 @@
                 "OAL": 2,
                 "SFDM": 0.125,
                 "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.125,
                 "shoulder-length": 1.25
             },
             "guid": "27ad127b-8891-4cb0-b38f-e872cb3b6c56",
@@ -382,7 +392,8 @@
                         "guid": "f6c86e73-6ef6-4158-88bf-8866db8f3f76",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -415,7 +426,8 @@
                         "guid": "02af99a0-b822-41bb-a84a-99212c70fa45",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -448,7 +460,8 @@
                         "guid": "9c47e6c7-1d5c-4995-84d4-8f262a7ed7fc",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -495,6 +508,7 @@
                 "OAL": 4,
                 "SFDM": 0.5,
                 "assemblyGaugeLength": 3,
+                "shoulder-diameter": 0.5,
                 "shoulder-length": 2
             },
             "guid": "98f8bd7b-70cf-46c5-9eba-570bc32b6250",
@@ -523,7 +537,8 @@
                         "guid": "4aa4c446-6e94-4806-828d-5d2b3f31eb59",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5000,
                         "n_ramp": 5000,
@@ -565,6 +580,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.25,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.25,
                 "shoulder-length": 0.875
             },
             "guid": "b6310076-fd0c-4273-9e22-c91eb3c2b67e",
@@ -593,7 +609,8 @@
                         "guid": "2fd8640c-3c36-4bae-981e-f9a7ee2639bb",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 4650,
                         "n_ramp": 4650,
@@ -634,6 +651,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.125,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.125,
                 "shoulder-length": 0.875
             },
             "guid": "c2fef4b8-42cf-412c-ac6b-f26552767fad",
@@ -666,7 +684,8 @@
                         "guid": "a4ea1d4f-6afc-427e-8322-e9eca3878454",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 9210,
                         "n_ramp": 9210,
@@ -713,6 +732,7 @@
                 "OAL": 3,
                 "SFDM": 0.25,
                 "assemblyGaugeLength": 2,
+                "shoulder-diameter": 0.25,
                 "shoulder-length": 1.5
             },
             "guid": "519940ee-9f07-4262-9df3-fbd1f8e01479",
@@ -744,7 +764,8 @@
                         "guid": "58b62acd-1c76-4a5e-9b7d-9a9b04e91b2f",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10000,
                         "n_ramp": 10000,
@@ -776,7 +797,8 @@
                         "guid": "0644a27d-4bb6-45a6-91cc-777781981895",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -808,7 +830,8 @@
                         "guid": "94e92a96-911c-47de-916c-3fb423022131",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -856,6 +879,7 @@
                 "OAL": 2,
                 "SFDM": 0.375,
                 "assemblyGaugeLength": 1.75,
+                "shoulder-diameter": 0.375,
                 "shoulder-length": 1.5625
             },
             "guid": "090dcfb3-efdd-4c54-aab9-4507ae3979fe",
@@ -887,7 +911,8 @@
                         "guid": "17bda294-e35d-4dfd-9df3-060d97846ab5",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -919,7 +944,8 @@
                         "guid": "1dbc645a-4f9a-4fa7-b7cb-18e1b4a0782b",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -951,7 +977,8 @@
                         "guid": "3a24a42d-d487-4e52-ac1a-0af6d03d01db",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -1020,7 +1047,8 @@
                         "guid": "c4c6990d-08a4-48b3-923a-7ab114de93bf",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5550,
                         "name": "Default preset",
@@ -1080,7 +1108,8 @@
                         "guid": "a44c3984-8118-41f0-9a03-38214d70d995",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 525,
                         "name": "Default preset",
@@ -1137,7 +1166,8 @@
                         "guid": "6d8cd807-0bb8-46aa-bd01-751ba7ce0849",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5500,
                         "name": "Default preset",
@@ -1197,7 +1227,8 @@
                         "guid": "ec34a0f8-4c60-4bb7-8c20-a3dff0aac30d",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5500,
                         "name": "Default preset",
@@ -1259,7 +1290,8 @@
                         "guid": "5f29eef4-b8ba-4e48-8cd2-8ef7bc43bba2",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 525,
                         "name": "Default preset",
@@ -1318,7 +1350,8 @@
                         "guid": "c8392561-c7e4-44fd-8db1-3427969375f0",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 525,
                         "name": "Default preset",
@@ -1375,7 +1408,8 @@
                         "guid": "7786805b-7bcd-421d-b320-3ddec27efba5",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5550,
                         "name": "Default preset",
@@ -1435,7 +1469,8 @@
                         "guid": "7e6a5f0a-02a5-4226-80c0-5987400e9f0c",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5550,
                         "name": "Default preset",
@@ -1499,7 +1534,8 @@
                         "guid": "7e6a5f0a-02a5-4226-80c0-5987400e9f0c",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5550,
                         "name": "Default preset",
@@ -1533,6 +1569,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.5,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.5,
                 "shoulder-length": 0.875
             },
             "guid": "d99ad636-1506-4121-bf6d-e49f02c3ff7b",
@@ -1559,7 +1596,8 @@
                         "guid": "d164acd6-9917-4715-ac16-da6ed740670a",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -1599,6 +1637,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.125,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.125,
                 "shoulder-length": 0.875
             },
             "guid": "8ce5b0a8-08ad-4ed1-be44-c7c339bef055",
@@ -1625,7 +1664,8 @@
                         "guid": "89eca1f6-429e-4d8a-bf0f-90c0cdeff803",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -1692,7 +1732,8 @@
                         "guid": "f8ca4a25-0c76-4c51-b0f1-815712c6f399",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 5500,
                         "name": "Default preset",
@@ -1727,6 +1768,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.25,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.25,
                 "shoulder-length": 0.875
             },
             "guid": "6bd7ebdf-77f5-41d4-84ae-ce850c1feb1a",
@@ -1755,7 +1797,8 @@
                         "guid": "2fd8640c-3c36-4bae-981e-f9a7ee2639bb",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -1796,6 +1839,7 @@
                 "OAL": 1.5,
                 "SFDM": 0.125,
                 "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.125,
                 "shoulder-length": 0.875
             },
             "guid": "a324190c-f800-4930-9bde-be99f2d0adab",
@@ -1827,7 +1871,8 @@
                         "guid": "a32efece-29a9-4d2b-a67e-7cc9722b4594",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 10200,
                         "n_ramp": 10200,
@@ -1859,7 +1904,8 @@
                         "guid": "86ccf635-9562-4307-9662-af89967c48b7",
                         "material": {
                             "category": "all",
-                            "query": ""
+                            "query": "",
+                            "use-hardness": false
                         },
                         "n": 7500,
                         "n_ramp": 7500,
@@ -1883,5 +1929,5 @@
             "vendor": ""
         }
     ],
-    "version": 26
+    "version": 28
 }
