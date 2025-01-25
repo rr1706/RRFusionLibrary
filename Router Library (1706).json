@@ -2898,6 +2898,188 @@
             "type": "flat end mill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/4 BALL 2FL DLC ",
+            "expressions": {
+                "tool_description": "'1/4 BALL 2FL DLC '",
+                "tool_diameter": "0.249 in",
+                "tool_material": "'carbide'",
+                "tool_number": "11",
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.249,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.249,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.249,
+                "shoulder-length": 0.875
+            },
+            "guid": "7d370ad4-d4f3-4a0e-bd37-5d1a6b110e07",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 11,
+                "length-offset": 11,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 11,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "100.8 inpm",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_feedRamp": "23 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.063 in",
+                            "tool_stepover": "tool_diameter*0.6",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00041666666666666664,
+                        "f_z": 0.0021,
+                        "guid": "d243f29e-27c7-496a-95dd-64c43638b759",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Pocket (.063\")",
+                        "stepdown": 0.063,
+                        "stepover": 0.1494,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1564.513141487717,
+                        "v_f": 100.8,
+                        "v_f_leadIn": 100.8,
+                        "v_f_leadOut": 100.8,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 23,
+                        "v_f_transition": 100.8
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "66 inpm",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_feedRamp": "23 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "tool_diameter*0.41",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00041666666666666664,
+                        "f_z": 0.001375,
+                        "guid": "a4e028d3-6924-4f73-b8b8-0caa24012250",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Pocket (.125\")",
+                        "stepdown": 0.125,
+                        "stepover": 0.10209,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1564.513141487717,
+                        "v_f": 66,
+                        "v_f_leadIn": 66,
+                        "v_f_leadOut": 66,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 23,
+                        "v_f_transition": 66
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "23.2 inpm",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_feedRamp": "23 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "tool_diameter*0.",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.00041666666666666664,
+                        "f_z": 0.0004833333333333332,
+                        "guid": "043c8e09-799c-432c-99ce-8a4528fb2bed",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Contour",
+                        "stepdown": 0.125,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 1564.513141487717,
+                        "v_f": 23.2,
+                        "v_f_leadIn": 23.2,
+                        "v_f_leadOut": 23.2,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 23,
+                        "v_f_transition": 23.2
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "120 inpm",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_feedRamp": "23 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "tool_diameter*0.",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.00041666666666666664,
+                        "f_z": 0.0025,
+                        "guid": "978c0523-1fb1-4b79-bf8c-58bba56ba1ef",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Aluminum Deburr Pass",
+                        "stepdown": 0.125,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 1564.513141487717,
+                        "v_f": 120,
+                        "v_f_leadIn": 120,
+                        "v_f_leadOut": 120,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 23,
+                        "v_f_transition": 120
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
     "version": 28
