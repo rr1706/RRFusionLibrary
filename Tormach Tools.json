@@ -1927,6 +1927,68 @@
             "type": "flat end mill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "2fl HHS .257 ",
+            "expressions": {
+                "tool_description": "'2fl HHS .257 '",
+                "tool_diameter": "0.257 in",
+                "tool_number": "15"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.257,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.257,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "5343e5ab-0523-459b-8e9a-c9adaff26019",
+            "last_modified": 1737586856359,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 15,
+                "length-offset": 15,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 15,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_spindleSpeed": "5500 rpm"
+                        },
+                        "guid": "7be4ad01-900b-4566-a876-00a7e0c64082",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 370.0534346540977,
+                        "v_f_plunge": 40,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
     "version": 28
