@@ -1446,6 +1446,79 @@
             "type": "tap right hand",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "1/4' ball end R1/8' 4fl",
+            "expressions": {
+                "tool_description": "'1/4' ball end R1/8' 4fl'",
+                "tool_material": "'carbide'",
+                "tool_number": "126",
+                "tool_numberOfFlutes": "4",
+                "tool_overallLength": "2.500000000000000 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 4,
+                "OAL": 2.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.875
+            },
+            "guid": "9a9c5869-3a05-42b9-9593-04c7e4e1b9ab",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 126,
+                "length-offset": 126,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 126,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "expressions": {
+                            "tool_feedCutting": "30.6 in/min",
+                            "tool_spindleSpeed": "10200 rpm"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.00075,
+                        "guid": "d47c35df-f2c0-4cc3-ad59-2b1d60b64e3b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 667.588438887831,
+                        "v_f": 30.6,
+                        "v_f_leadIn": 30.6,
+                        "v_f_leadOut": 30.6,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 30.6
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
     "version": 28
