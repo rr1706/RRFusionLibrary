@@ -1861,7 +1861,7 @@
                         "expressions": {
                             "tool_feedCutting": "30 inpm",
                             "tool_spindleSpeed": "10200 rpm",
-                            "tool_stepdown": "tool_diameter*1.5",
+                            "tool_stepdown": "tool_diameter*1.0",
                             "tool_stepover": "(.125*.05) in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
@@ -1877,7 +1877,7 @@
                         "n": 10200,
                         "n_ramp": 10200,
                         "name": "Default preset",
-                        "stepdown": 0.1875,
+                        "stepdown": 0.125,
                         "stepover": 0.00625,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
