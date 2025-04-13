@@ -1246,13 +1246,13 @@
         },
         {
             "BMC": "hss",
-            "description": "1/4-20",
+            "description": "1/4-20 UNDERDRIVE",
             "expressions": {
-                "tool_description": "'1/4-20'",
+                "tool_description": "'1/4-20 UNDERDRIVE'",
                 "tool_diameter": ".25 in",
                 "tool_lengthOffset": "112",
                 "tool_number": "112",
-                "tool_threadPitch": "(1/20) in"
+                "tool_threadPitch": "(1/20) in*0.65"
             },
             "geometry": {
                 "CSP": false,
@@ -1262,12 +1262,11 @@
                 "NOF": 3,
                 "OAL": 2,
                 "SFDM": 0.25,
-                "TP": 0.05,
+                "TP": 0.0325,
                 "assemblyGaugeLength": 2,
                 "shoulder-length": 1.2
             },
             "guid": "9befdff7-e0ad-4b28-b647-16ea8dd254dd",
-            "last_modified": 1706394678135,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1280,7 +1279,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -1312,7 +1310,7 @@
                 "tool_diameter": ".1503 in",
                 "tool_number": "114",
                 "tool_numberOfFlutes": "2",
-                "tool_threadPitch": "(1/32) in"
+                "tool_threadPitch": "(1/32) in*0.8"
             },
             "geometry": {
                 "CSP": false,
@@ -1322,12 +1320,11 @@
                 "NOF": 2,
                 "OAL": 2,
                 "SFDM": 0.1503,
-                "TP": 0.03125,
+                "TP": 0.025,
                 "assemblyGaugeLength": 2,
                 "shoulder-length": 1.2
             },
             "guid": "a037ef9c-84a6-4a2b-bd9d-65f4081ceb19",
-            "last_modified": 1706394765541,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1340,7 +1337,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {

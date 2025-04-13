@@ -350,32 +350,94 @@
             "BMC": "carbide",
             "description": "1/4\" 3FL DLC",
             "expressions": {
-                "tool_bodyLength": "2 in",
+                "tool_bodyLength": "1.75 in",
                 "tool_description": "'1/4\" 3FL DLC'",
                 "tool_diameter": "0.249 in",
-                "tool_fluteLength": "1.375 in",
+                "tool_fluteLength": "1.5 in",
                 "tool_manualToolChange": "true",
                 "tool_material": "'carbide'",
                 "tool_number": "104",
                 "tool_numberOfFlutes": "3",
                 "tool_overallLength": "2.5 in",
-                "tool_shoulderLength": "1.5 in",
+                "tool_shoulderLength": "1.75 in",
                 "tool_unit": "'inches'"
             },
             "geometry": {
                 "CSP": false,
                 "DC": 0.249,
                 "HAND": true,
-                "LB": 2,
-                "LCF": 1.375,
+                "LB": 1.75,
+                "LCF": 1.5,
                 "NOF": 3,
                 "OAL": 2.5,
                 "SFDM": 0.249,
-                "assemblyGaugeLength": 2,
+                "assemblyGaugeLength": 3.167322834645669,
                 "shoulder-diameter": 0.249,
-                "shoulder-length": 1.5
+                "shoulder-length": 1.75
             },
             "guid": "5b2b9ae1-6f21-4a07-9479-0c6878000e95",
+            "holder": {
+                "description": "HSK40 - Blank",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height"
+                },
+                "gaugeLength": 36,
+                "guid": "34fbdc5c-4f77-48ab-8a34-5b92817187a5",
+                "last_modified": 1645624857041,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{d0bcdde5-dd9d-4133-921b-6b1f314dd65d}",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 31.6,
+                        "upper-diameter": 33.6
+                    },
+                    {
+                        "height": 15,
+                        "lower-diameter": 33.6,
+                        "upper-diameter": 33.6
+                    },
+                    {
+                        "height": 0.5,
+                        "lower-diameter": 39,
+                        "upper-diameter": 40
+                    },
+                    {
+                        "height": 1.75,
+                        "lower-diameter": 40,
+                        "upper-diameter": 40
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 40,
+                        "upper-diameter": 36.536
+                    },
+                    {
+                        "height": 1.5,
+                        "lower-diameter": 35.536,
+                        "upper-diameter": 35.536
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 36.536,
+                        "upper-diameter": 40
+                    },
+                    {
+                        "height": 13.75,
+                        "lower-diameter": 40,
+                        "upper-diameter": 40
+                    },
+                    {
+                        "height": 0.5,
+                        "lower-diameter": 40,
+                        "upper-diameter": 39
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1421,9 +1483,9 @@
         },
         {
             "BMC": "hss",
-            "description": "10-32 tap",
+            "description": "10-32 UNDERDRIVE",
             "expressions": {
-                "tool_description": "'10-32 tap'",
+                "tool_description": "'10-32 UNDERDRIVE'",
                 "tool_diameter": ".189 in",
                 "tool_number": "113",
                 "tool_numberOfFlutes": "2",
@@ -1548,6 +1610,218 @@
                 ]
             },
             "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "8-32 Tap",
+            "expressions": {
+                "tool_description": "'8-32 Tap'",
+                "tool_diameter": "0.163 in",
+                "tool_number": "114",
+                "tool_numberOfFlutes": "2",
+                "tool_threadPitch": "(1/32) in*0.8"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.163,
+                "LB": 2,
+                "LCF": 0.8,
+                "NOF": 2,
+                "OAL": 2,
+                "SFDM": 0.163,
+                "TP": 0.025,
+                "assemblyGaugeLength": 2,
+                "shoulder-length": 1.2
+            },
+            "guid": "d0c7f99b-21b0-47c6-9045-9f32ee42bb0e",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 114,
+                "length-offset": 114,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 114,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_spindleSpeed": "525 rpm"
+                        },
+                        "guid": "c8392561-c7e4-44fd-8db1-3427969375f0",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 525,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "v_c": 22.403482610912217
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "1/4 ball mill 2fl",
+            "expressions": {
+                "tool_description": "'1/4 ball mill 2fl'",
+                "tool_material": "'carbide'",
+                "tool_number": "123",
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.875
+            },
+            "guid": "60f9fc70-3536-4d8c-b2ea-b346143180ea",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 123,
+                "length-offset": 123,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 123,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPerTooth": "0.0015 in",
+                            "tool_feedPlunge": "10 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "0.030 in",
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.000980392156862745,
+                        "f_z": 0.0015,
+                        "guid": "2fd8640c-3c36-4bae-981e-f9a7ee2639bb",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Aluminum Slot .030\"",
+                        "ramp-angle": 2,
+                        "stepdown": 0.03,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 667.588438887831,
+                        "v_f": 30.6,
+                        "v_f_leadIn": 30.6,
+                        "v_f_leadOut": 30.6,
+                        "v_f_plunge": 10,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 30.6
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "2fl #19 (.166) HHS Drill",
+            "expressions": {
+                "tool_description": "'2fl #19 (.166) HHS Drill'",
+                "tool_diameter": ".166 in",
+                "tool_fluteLength": "2 in",
+                "tool_number": "128"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.166,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.166,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "36f23812-6adf-4a8a-968e-1e2a1f2a719a",
+            "last_modified": 1741308497188,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 128,
+                "length-offset": 128,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 128,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "guid": "91a1c232-e717-43d8-93fd-8fc2a76ff9ca",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 217.293491873294,
+                        "v_f_plunge": 40,
+                        "v_f_retract": 40
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "4.76 in/min",
+                            "tool_spindleSpeed": "1519 rpm"
+                        },
+                        "guid": "d2db3a28-3247-4ed0-9d09-fec2977ba237",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1519,
+                        "name": "steel drill",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 66.0137628311067,
+                        "v_f_plunge": 4.76,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
             "unit": "inches",
             "vendor": ""
         }
