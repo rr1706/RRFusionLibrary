@@ -1170,6 +1170,43 @@
                         "v_f_plunge": 30,
                         "v_f_ramp": 72,
                         "v_f_transition": 48
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "110 inpm",
+                            "tool_feedPlunge": "30 inpm",
+                            "tool_feedRamp": "72 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in/2",
+                            "tool_stepover": "tool_diameter*.6",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.0045833333333333325,
+                        "guid": "d6a2561f-f539-4d75-8c31-834230b6ec78",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "RTFiber contour .125",
+                        "ramp-angle": 2,
+                        "stepdown": 0.0625,
+                        "stepover": 0.0936,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 980.1769079200154,
+                        "v_f": 110,
+                        "v_f_leadIn": 110,
+                        "v_f_leadOut": 110,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 72,
+                        "v_f_transition": 110
                     }
                 ]
             },
@@ -2783,6 +2820,7 @@
                             "tool_feedCutting": "37.14 inpm",
                             "tool_feedPlunge": "30 inpm",
                             "tool_feedRamp": "37.14 inpm",
+                            "tool_rampAngle": "5 degrees",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "tool_diameter",
                             "tool_stepover": "tool_diameter*0.15",
@@ -2800,7 +2838,7 @@
                         "n": 24000,
                         "n_ramp": 24000,
                         "name": "Poly Bore",
-                        "ramp-angle": 2,
+                        "ramp-angle": 5,
                         "stepdown": 0.124,
                         "stepover": 0.0186,
                         "tool-coolant": "disabled",
@@ -2961,6 +2999,120 @@
                         "v_f_plunge": 30,
                         "v_f_ramp": 37.14,
                         "v_f_transition": 25.87
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "110 inpm",
+                            "tool_feedPlunge": "60 inpm",
+                            "tool_feedRamp": "72 inpm",
+                            "tool_rampAngle": "5 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "tool_diameter",
+                            "tool_stepover": "tool_diameter*0.6",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0025,
+                        "f_z": 0.0045833333333333325,
+                        "guid": "16a073d9-019b-4fe4-bf80-140d77658c68",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "RT Revfiber Bore",
+                        "ramp-angle": 5,
+                        "stepdown": 0.124,
+                        "stepover": 0.0744,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 779.1149780902686,
+                        "v_f": 110,
+                        "v_f_leadIn": 110,
+                        "v_f_leadOut": 110,
+                        "v_f_plunge": 60,
+                        "v_f_ramp": 72,
+                        "v_f_transition": 110
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "110 inpm",
+                            "tool_feedPlunge": "60 inpm",
+                            "tool_feedRamp": "72 inpm",
+                            "tool_rampAngle": "5 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "tool_diameter*0.6",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0025,
+                        "f_z": 0.0045833333333333325,
+                        "guid": "ae284f2f-6f59-4383-b079-644baad12797",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "RT Revfiber Pocket .125\"",
+                        "ramp-angle": 5,
+                        "stepdown": 0.125,
+                        "stepover": 0.0744,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 779.1149780902686,
+                        "v_f": 110,
+                        "v_f_leadIn": 110,
+                        "v_f_leadOut": 110,
+                        "v_f_plunge": 60,
+                        "v_f_ramp": 72,
+                        "v_f_transition": 110
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "110 inpm",
+                            "tool_feedPlunge": "60 inpm",
+                            "tool_feedRamp": "72 inpm",
+                            "tool_rampAngle": "5 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "tool_diameter",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0025,
+                        "f_z": 0.0045833333333333325,
+                        "guid": "71c576e2-1a3c-4581-82e3-62bfafd47970",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "RT Revfiber Contour .125\"",
+                        "ramp-angle": 5,
+                        "stepdown": 0.125,
+                        "stepover": 0.124,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 779.1149780902686,
+                        "v_f": 110,
+                        "v_f_leadIn": 110,
+                        "v_f_leadOut": 110,
+                        "v_f_plunge": 60,
+                        "v_f_ramp": 72,
+                        "v_f_transition": 110
                     }
                 ]
             },
@@ -3219,6 +3371,85 @@
                 ]
             },
             "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "",
+            "expressions": {
+                "tool_diameter": "0.125 in",
+                "tool_material": "'carbide'",
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.125,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.125,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.125,
+                "shoulder-length": 0.875
+            },
+            "guid": "cfcfeeb5-4f67-4846-adbf-87b89791cd16",
+            "last_modified": 1743717335302,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "600mm/min",
+                            "tool_feedPlunge": "150mm/min",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "2mm",
+                            "tool_stepover": "0.40*tool_diameter",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00024606299212598425,
+                        "f_z": 0.0004921259842519685,
+                        "guid": "6fca8787-04a2-484a-a035-f94e4b4bd463",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "stepdown": 0.07874015748031496,
+                        "stepover": 0.05,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 785.3981633974482,
+                        "v_f": 23.622047244094492,
+                        "v_f_leadIn": 23.622047244094492,
+                        "v_f_leadOut": 23.622047244094492,
+                        "v_f_plunge": 5.905511811023623,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 23.622047244094492
+                    }
+                ]
+            },
+            "type": "flat end mill",
             "unit": "inches",
             "vendor": ""
         }
