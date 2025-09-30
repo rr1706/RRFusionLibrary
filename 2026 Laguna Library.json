@@ -1,0 +1,988 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "description": "4mm DLC 1F",
+            "expressions": {
+                "tool_bodyLength": "16mm",
+                "tool_description": "'4mm DLC 1F'",
+                "tool_diameter": "4mm",
+                "tool_fluteLength": "12mm",
+                "tool_material": "'carbide'",
+                "tool_numberOfFlutes": "1",
+                "tool_overallLength": "45mm",
+                "tool_shoulderLength": "16mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.15748031496062992,
+                "HAND": true,
+                "LB": 0.6299212598425197,
+                "LCF": 0.4724409448818898,
+                "NOF": 1,
+                "OAL": 1.7716535433070866,
+                "SFDM": 0.15748031496062992,
+                "assemblyGaugeLength": 0.6299212598425197,
+                "shoulder-diameter": 0.15748031496062992,
+                "shoulder-length": 0.6299212598425197
+            },
+            "guid": "e9c0bb56-b2fc-419c-af41-039b3466ea3c",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "35.3 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "0.0518 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.001470833333333333,
+                        "guid": "5f4c520a-3e26-4e87-aef6-8a3685532f20",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "0-0.125 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.0518,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 989.4780011306434,
+                        "v_f": 35.3,
+                        "v_f_leadIn": 35.3,
+                        "v_f_leadOut": 35.3,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 35.3
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "47.19 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.25 in",
+                            "tool_stepover": "0.0251 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00196625,
+                        "guid": "e642583a-4cc7-499b-96c6-f404959d9078",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "0.126-0.250 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.0251,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 989.4780011306434,
+                        "v_f": 47.19,
+                        "v_f_leadIn": 47.19,
+                        "v_f_leadOut": 47.19,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 47.19
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "59.79 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00249125,
+                        "guid": "bbf3f32b-651a-4001-b628-536b60c774e2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "0.251-0.375 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.375,
+                        "stepover": 0.0157,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 989.4780011306434,
+                        "v_f": 59.79,
+                        "v_f_leadIn": 59.79,
+                        "v_f_leadOut": 59.79,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 59.79
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "15 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.000625,
+                        "guid": "4256a08a-cda5-44f1-9c4c-8eb9274e2723",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "2deg Bore >=0.159 Holes",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 989.4780011306434,
+                        "v_f": 15,
+                        "v_f_leadIn": 15,
+                        "v_f_leadOut": 15,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 15
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "15 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_rampAngle": "3 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.000625,
+                        "guid": "99f1a540-f821-4522-beb6-1958c1e32f04",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "3deg Bore >=0.17 Holes",
+                        "ramp-angle": 3,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 989.4780011306434,
+                        "v_f": 15,
+                        "v_f_leadIn": 15,
+                        "v_f_leadOut": 15,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 15
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "15 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_rampAngle": "3.5 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.000625,
+                        "guid": "348078f1-b51d-4ab2-bf64-4d881a22179b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "3.5deg Bore >=0.19 Holes",
+                        "ramp-angle": 3.5,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 989.4780011306434,
+                        "v_f": 15,
+                        "v_f_leadIn": 15,
+                        "v_f_leadOut": 15,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 15
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00125,
+                        "guid": "34effd4c-08d6-4037-b013-6761a5bb8485",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Finish Pass",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 989.4780011306434,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 30
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "15 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.075 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.000625,
+                        "guid": "89e359a0-60d8-4de7-b859-ddc9137ffcba",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Contour ~0.063 DOC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.075,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 989.4780011306434,
+                        "v_f": 15,
+                        "v_f_leadIn": 15,
+                        "v_f_leadOut": 15,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 15
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "6mm DLC 1F",
+            "expressions": {
+                "tool_bodyLength": "16mm",
+                "tool_description": "'6mm DLC 1F'",
+                "tool_diameter": "6mm",
+                "tool_fluteLength": "12mm",
+                "tool_material": "'carbide'",
+                "tool_number": "2",
+                "tool_numberOfFlutes": "1",
+                "tool_overallLength": "45mm",
+                "tool_shoulderLength": "16mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.2362204724409449,
+                "HAND": true,
+                "LB": 0.6299212598425197,
+                "LCF": 0.4724409448818898,
+                "NOF": 1,
+                "OAL": 1.7716535433070866,
+                "SFDM": 0.2362204724409449,
+                "assemblyGaugeLength": 0.6299212598425197,
+                "shoulder-diameter": 0.2362204724409449,
+                "shoulder-length": 0.6299212598425197
+            },
+            "guid": "bbeeb3f0-e54a-46fd-87c7-63315da85228",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "44.35 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.125 in",
+                            "tool_stepover": "0.118 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0018479166666666663,
+                        "guid": "5f4c520a-3e26-4e87-aef6-8a3685532f20",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "0-0.125 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.125,
+                        "stepover": 0.118,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1484.217001695965,
+                        "v_f": 44.35,
+                        "v_f_leadIn": 44.35,
+                        "v_f_leadOut": 44.35,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 44.35
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "46.71 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.25 in",
+                            "tool_stepover": "0.1015 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00194625,
+                        "guid": "e642583a-4cc7-499b-96c6-f404959d9078",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "0.126-0.250 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.1015,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1484.217001695965,
+                        "v_f": 46.71,
+                        "v_f_leadIn": 46.71,
+                        "v_f_leadOut": 46.71,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 46.71
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "54.82 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0684 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0022841666666666666,
+                        "guid": "bbf3f32b-651a-4001-b628-536b60c774e2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "0.251-0.375 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.375,
+                        "stepover": 0.0684,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1484.217001695965,
+                        "v_f": 54.82,
+                        "v_f_leadIn": 54.82,
+                        "v_f_leadOut": 54.82,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 54.82
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "4256a08a-cda5-44f1-9c4c-8eb9274e2723",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "2deg Bore >=0.236 Holes",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1484.217001695965,
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 20
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_rampAngle": "3 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "99f1a540-f821-4522-beb6-1958c1e32f04",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "3deg Bore >=0.25 Holes",
+                        "ramp-angle": 3,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1484.217001695965,
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 20
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "15 inpm",
+                            "tool_rampAngle": "3.5 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "348078f1-b51d-4ab2-bf64-4d881a22179b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "3.5deg Bore >=0.266 Holes",
+                        "ramp-angle": 3.5,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1484.217001695965,
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 15,
+                        "v_f_transition": 20
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00125,
+                        "guid": "34effd4c-08d6-4037-b013-6761a5bb8485",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Finish Pass",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1484.217001695965,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 30
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.075 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.00125,
+                        "guid": "89e359a0-60d8-4de7-b859-ddc9137ffcba",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Contour ~0.063 DOC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.075,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 1484.217001695965,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 30
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "20 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.14 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.000625,
+                        "f_z": 0.0008333333333333333,
+                        "guid": "4f318f5b-5d43-4c03-b2ec-d1d7aa77d099",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Contour ~0.125 DOC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.14,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 1484.217001695965,
+                        "v_f": 20,
+                        "v_f_leadIn": 20,
+                        "v_f_leadOut": 20,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 20
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "10mm DLC 1F",
+            "expressions": {
+                "tool_bodyLength": "30mm",
+                "tool_description": "'10mm DLC 1F'",
+                "tool_diameter": "10mm",
+                "tool_fluteLength": "22mm",
+                "tool_material": "'carbide'",
+                "tool_number": "3",
+                "tool_numberOfFlutes": "1",
+                "tool_overallLength": "50mm",
+                "tool_shoulderLength": "25mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.3937007874015748,
+                "HAND": true,
+                "LB": 1.1811023622047243,
+                "LCF": 0.8661417322834646,
+                "NOF": 1,
+                "OAL": 1.9685039370078743,
+                "SFDM": 0.3937007874015748,
+                "assemblyGaugeLength": 1.1811023622047243,
+                "shoulder-diameter": 0.3937007874015748,
+                "shoulder-length": 0.984251968503937
+            },
+            "guid": "9471352a-b3a3-474c-9ccc-60ba3fd837de",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "48.32 inpm",
+                            "tool_feedPlunge": "20 inpm",
+                            "tool_feedRamp": "40 inpm",
+                            "tool_spindleSpeed": "18000 rpm",
+                            "tool_stepdown": "0.25 in",
+                            "tool_stepover": "0.197 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0011111111111111111,
+                        "f_z": 0.002684444444444444,
+                        "guid": "5f4c520a-3e26-4e87-aef6-8a3685532f20",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "0-0.250 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.197,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1855.2712521199564,
+                        "v_f": 48.32,
+                        "v_f_leadIn": 48.32,
+                        "v_f_leadOut": 48.32,
+                        "v_f_plunge": 20,
+                        "v_f_ramp": 40,
+                        "v_f_transition": 48.32
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "52.42 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "18000 rpm",
+                            "tool_stepdown": "0.5 in",
+                            "tool_stepover": "0.1458 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.002912222222222222,
+                        "guid": "bbf3f32b-651a-4001-b628-536b60c774e2",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "0.251-0.500 AL Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.5,
+                        "stepover": 0.1458,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1855.2712521199564,
+                        "v_f": 52.42,
+                        "v_f_leadIn": 52.42,
+                        "v_f_leadOut": 52.42,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 52.42
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "30 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "18000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.0008333333333333333,
+                        "f_z": 0.0016666666666666666,
+                        "guid": "34effd4c-08d6-4037-b013-6761a5bb8485",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Finish Pass",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1855.2712521199564,
+                        "v_f": 30,
+                        "v_f_leadIn": 30,
+                        "v_f_leadOut": 30,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 30
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "OSG Drill",
+            "expressions": {
+                "tool_bodyLength": "1.25 in",
+                "tool_description": "'OSG Drill'",
+                "tool_diameter": "0.196 in",
+                "tool_fluteLength": "0.875 in",
+                "tool_material": "'carbide'",
+                "tool_overallLength": "3 in",
+                "tool_shoulderLength": "1 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.196,
+                "HAND": true,
+                "LB": 1.25,
+                "LCF": 0.875,
+                "NOF": 2,
+                "OAL": 3,
+                "SFDM": 0.196,
+                "SIG": 118,
+                "assemblyGaugeLength": 1.25,
+                "shoulder-length": 1
+            },
+            "guid": "b28ed58a-2868-42c9-b580-a3c67254de2f",
+            "last_modified": 1758124187924,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "83.74 inpm",
+                            "tool_feedRetract": "83.74 inpm",
+                            "tool_spindleSpeed": "16000 rpm",
+                            "tool_useFeedPerRevolution": "false"
+                        },
+                        "guid": "01d36819-9327-4b8b-a7d9-dc8e22d8f6a3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 16000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 821.0028801381327,
+                        "v_f_plunge": 83.74,
+                        "v_f_retract": 83.74
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "OSG Drill",
+            "expressions": {
+                "tool_bodyLength": "1.25 in",
+                "tool_description": "'OSG Drill'",
+                "tool_diameter": "0.159 in",
+                "tool_fluteLength": "0.75 in",
+                "tool_material": "'carbide'",
+                "tool_number": "5",
+                "tool_overallLength": "3 in",
+                "tool_shoulderLength": "1 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.159,
+                "HAND": true,
+                "LB": 1.25,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 3,
+                "SFDM": 0.159,
+                "SIG": 118,
+                "assemblyGaugeLength": 1.25,
+                "shoulder-length": 1
+            },
+            "guid": "b58471b2-362a-4256-ad47-89e2619749e5",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 5,
+                "length-offset": 5,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 5,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "83.74 inpm",
+                            "tool_feedRetract": "83.74 inpm",
+                            "tool_spindleSpeed": "19600 rpm",
+                            "tool_useFeedPerRevolution": "false"
+                        },
+                        "guid": "01d36819-9327-4b8b-a7d9-dc8e22d8f6a3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 19600,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 815.8716121372694,
+                        "v_f_plunge": 83.74,
+                        "v_f_retract": 83.74
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        }
+    ],
+    "version": 33
+}
