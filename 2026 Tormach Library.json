@@ -467,7 +467,205 @@
             "type": "flat end mill",
             "unit": "inches",
             "vendor": "OSG"
+        },
+        {
+            "BMC": "hss",
+            "description": ".159 Drill ",
+            "expressions": {
+                "tool_description": "'.159 Drill '",
+                "tool_diameter": ".159 in",
+                "tool_number": "302"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.159,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.159,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "1cd6d821-c1e4-4773-8255-035dc658d31a",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 302,
+                "length-offset": 302,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 302,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "31.2 inpm",
+                            "tool_spindleSpeed": "7300 rpm"
+                        },
+                        "guid": "7786805b-7bcd-421d-b320-3ddec27efba5",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 7300,
+                        "name": "Normal Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 303.8705494184727,
+                        "v_f_plunge": 31.2,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": ".193 Drill",
+            "expressions": {
+                "tool_description": "'.193 Drill'",
+                "tool_diameter": ".193 in",
+                "tool_number": "304"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.193,
+                "HAND": true,
+                "LB": 4,
+                "LCF": 3.2,
+                "NOF": 2,
+                "OAL": 5.2,
+                "SFDM": 0.193,
+                "SIG": 118,
+                "assemblyGaugeLength": 4,
+                "shoulder-length": 3.600000000000001
+            },
+            "guid": "93c71a20-4ce1-45aa-895c-4a26af4351ac",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 304,
+                "length-offset": 304,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 304,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedPlunge": "31.12 inpm",
+                            "tool_spindleSpeed": "6000 rpm"
+                        },
+                        "guid": "ec34a0f8-4c60-4bb7-8c20-a3dff0aac30d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 6000,
+                        "name": "Normal Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 303.163691071415,
+                        "v_f_plunge": 31.12,
+                        "v_f_retract": 40
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "",
+            "expressions": {
+                "tool_bodyLength": ".8125 in",
+                "tool_diameter": ".25 in",
+                "tool_fluteLength": ".125 in",
+                "tool_inclusiveAngle": "60 degrees",
+                "tool_material": "'carbide'",
+                "tool_number": "401",
+                "tool_numberOfFlutes": "4",
+                "tool_shaftDiameter": "0.25 in",
+                "tool_shoulderLength": ".8125 in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 0.8125,
+                "LCF": 0.125,
+                "NOF": 4,
+                "OAL": 3,
+                "SFDM": 0.25,
+                "TA": 30,
+                "assemblyGaugeLength": 0.8125,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.8125,
+                "tip-diameter": 0
+            },
+            "guid": "13ad8a0c-89dd-4600-8c8b-b92e55c031cd",
+            "last_modified": 1758156684432,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 401,
+                "length-offset": 401,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 401,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.0026666666666666666,
+                        "f_z": 0.002,
+                        "guid": "1ec63132-1d33-4e67-ada7-1d4f7d01ecba",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5000,
+                        "n_ramp": 5000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 327.2492347489367,
+                        "v_f": 40,
+                        "v_f_leadIn": 40,
+                        "v_f_leadOut": 40,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 40
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
-    "version": 33
+    "version": 35
 }
