@@ -337,10 +337,11 @@
                 "tool_diameter": "6mm",
                 "tool_fluteLength": "12mm",
                 "tool_material": "'carbide'",
-                "tool_number": "2",
+                "tool_number": "3",
                 "tool_numberOfFlutes": "1",
                 "tool_overallLength": "45mm",
-                "tool_shoulderLength": "16mm"
+                "tool_shoulderLength": "16mm",
+                "tool_turret": "3"
             },
             "geometry": {
                 "CSP": false,
@@ -359,12 +360,12 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 2,
-                "length-offset": 2,
+                "diameter-offset": 3,
+                "length-offset": 3,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 2,
-                "turret": 0
+                "number": 3,
+                "turret": 3
             },
             "product-id": "",
             "product-link": "",
@@ -685,6 +686,79 @@
                         "v_f_plunge": 15,
                         "v_f_ramp": 20,
                         "v_f_transition": 20
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "150 inpm",
+                            "tool_feedPlunge": "40 inpm",
+                            "tool_feedRamp": "75 inpm",
+                            "tool_rampAngle": "4 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.25 in",
+                            "tool_stepover": "0.118 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0016666666666666666,
+                        "f_z": 0.006249999999999999,
+                        "guid": "6eaa641f-3a1e-4d92-a859-bfc663a9fdeb",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Poly Adaptive",
+                        "ramp-angle": 4,
+                        "stepdown": 0.25,
+                        "stepover": 0.118,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1484.217001695965,
+                        "v_f": 150,
+                        "v_f_leadIn": 150,
+                        "v_f_leadOut": 150,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 75,
+                        "v_f_transition": 150
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "85 inpm",
+                            "tool_feedPlunge": "40 inpm",
+                            "tool_feedRamp": "70 inpm",
+                            "tool_rampAngle": "4 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.257 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.0016666666666666666,
+                        "f_z": 0.0035416666666666665,
+                        "guid": "2fcf3ec4-6ffb-4330-81fc-ab779058a044",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Poly Contour",
+                        "ramp-angle": 4,
+                        "stepdown": 0.257,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 1484.217001695965,
+                        "v_f": 85,
+                        "v_f_leadIn": 85,
+                        "v_f_leadOut": 85,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 85
                     }
                 ]
             },
@@ -701,7 +775,7 @@
                 "tool_diameter": "10mm",
                 "tool_fluteLength": "22mm",
                 "tool_material": "'carbide'",
-                "tool_number": "3",
+                "tool_number": "4",
                 "tool_numberOfFlutes": "1",
                 "tool_overallLength": "50mm",
                 "tool_shoulderLength": "25mm"
@@ -723,11 +797,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 3,
-                "length-offset": 3,
+                "diameter-offset": 4,
+                "length-offset": 4,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 3,
+                "number": 4,
                 "turret": 0
             },
             "product-id": "",
@@ -839,6 +913,43 @@
                         "v_f_plunge": 15,
                         "v_f_ramp": 20,
                         "v_f_transition": 30
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "4000mm/min",
+                            "tool_feedPlunge": "50 inpm",
+                            "tool_feedRamp": "50 inpm",
+                            "tool_spindleSpeed": "18000 rpm",
+                            "tool_stepdown": "0.030 in",
+                            "tool_stepover": "0.8*tool_diameter",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0027777777777777775,
+                        "f_z": 0.008748906386701663,
+                        "guid": "41e2bc28-a913-406e-8917-fb0a8adec639",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "SpoilBoardCut",
+                        "ramp-angle": 2,
+                        "stepdown": 0.03,
+                        "stepover": 0.31496062992125984,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 1855.2712521199564,
+                        "v_f": 157.48031496062993,
+                        "v_f_leadIn": 157.48031496062993,
+                        "v_f_leadOut": 157.48031496062993,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 50,
+                        "v_f_transition": 157.48031496062993
                     }
                 ]
             },
@@ -855,8 +966,10 @@
                 "tool_diameter": "0.196 in",
                 "tool_fluteLength": "0.875 in",
                 "tool_material": "'carbide'",
+                "tool_number": "5",
                 "tool_overallLength": "3 in",
-                "tool_shoulderLength": "1 in"
+                "tool_shoulderLength": "1 in",
+                "tool_turret": "5"
             },
             "geometry": {
                 "CSP": false,
@@ -872,20 +985,18 @@
                 "shoulder-length": 1
             },
             "guid": "b28ed58a-2868-42c9-b580-a3c67254de2f",
-            "last_modified": 1758124187924,
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 4,
-                "length-offset": 4,
+                "diameter-offset": 5,
+                "length-offset": 5,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 4,
-                "turret": 0
+                "number": 5,
+                "turret": 5
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -992,9 +1103,11 @@
                 "tool_diameter": "4mm",
                 "tool_fluteLength": "12mm",
                 "tool_material": "'carbide'",
+                "tool_number": "2",
                 "tool_numberOfFlutes": "1",
                 "tool_overallLength": "45mm",
-                "tool_shoulderLength": "16mm"
+                "tool_shoulderLength": "16mm",
+                "tool_turret": "2"
             },
             "geometry": {
                 "CSP": false,
@@ -1013,12 +1126,12 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 1,
-                "length-offset": 1,
+                "diameter-offset": 2,
+                "length-offset": 2,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 1,
-                "turret": 0
+                "number": 2,
+                "turret": 2
             },
             "product-id": "",
             "product-link": "",
@@ -1304,13 +1417,199 @@
                         "v_f_plunge": 15,
                         "v_f_ramp": 15,
                         "v_f_transition": 15
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "140 inpm",
+                            "tool_feedPlunge": "30 inpm",
+                            "tool_feedRamp": "70 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.250 in",
+                            "tool_stepover": "0.0314 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00125,
+                        "f_z": 0.005833333333333333,
+                        "guid": "125aa45c-f802-4bbf-94aa-c95606da7d33",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Poly Adaptive",
+                        "ramp-angle": 2,
+                        "stepdown": 0.25,
+                        "stepover": 0.0314,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 989.4780011306434,
+                        "v_f": 140,
+                        "v_f_leadIn": 140,
+                        "v_f_leadOut": 140,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 70,
+                        "v_f_transition": 140
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "75 inpm",
+                            "tool_feedPlunge": "40 inpm",
+                            "tool_feedRamp": "75 inpm",
+                            "tool_rampAngle": "4 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.0016666666666666666,
+                        "f_z": 0.0031249999999999993,
+                        "guid": "f2aca390-5fdc-4acc-bf64-df4157b94974",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Poly bore",
+                        "ramp-angle": 4,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 989.4780011306434,
+                        "v_f": 75,
+                        "v_f_leadIn": 75,
+                        "v_f_leadOut": 75,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 75,
+                        "v_f_transition": 75
+                    },
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "75 inpm",
+                            "tool_feedPlunge": "40 inpm",
+                            "tool_feedRamp": "75 inpm",
+                            "tool_rampAngle": "4 degrees",
+                            "tool_spindleSpeed": "24000 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0157 in",
+                            "use_tool_stepdown": "false",
+                            "use_tool_stepover": "false"
+                        },
+                        "f_n": 0.0016666666666666666,
+                        "f_z": 0.0031249999999999993,
+                        "guid": "12ad17f3-df92-4416-8013-e76d49855032",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Poly Contour",
+                        "ramp-angle": 4,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 989.4780011306434,
+                        "v_f": 75,
+                        "v_f_leadIn": 75,
+                        "v_f_leadOut": 75,
+                        "v_f_plunge": 40,
+                        "v_f_ramp": 75,
+                        "v_f_transition": 75
                     }
                 ]
             },
             "type": "flat end mill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "",
+            "expressions": {
+                "tool_diameter": "0.25 in",
+                "tool_diameterOffset": "4",
+                "tool_lengthOffset": "4",
+                "tool_material": "'carbide'",
+                "tool_number": "4",
+                "tool_shaftDiameter": "0.25 in",
+                "tool_turret": "4"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1.5,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 3,
+                "SFDM": 0.25,
+                "TA": 45,
+                "assemblyGaugeLength": 1.5,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 1.125,
+                "tip-diameter": 0
+            },
+            "guid": "f835dfe1-0546-48c7-b981-0608f31c7868",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 4
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "120 inpm",
+                            "tool_feedPlunge": "50 inpm",
+                            "tool_feedRamp": "40 inpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0020833333333333333,
+                        "f_z": 0.0025,
+                        "guid": "d09d5c61-bd7c-4784-8b7e-b85b483d74db",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1570.7963267948965,
+                        "v_f": 120,
+                        "v_f_leadIn": 120,
+                        "v_f_leadOut": 120,
+                        "v_f_plunge": 50,
+                        "v_f_ramp": 40,
+                        "v_f_transition": 120
+                    }
+                ]
+            },
+            "type": "chamfer mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
-    "version": 35
+    "version": 36
 }
