@@ -312,10 +312,10 @@
         },
         {
             "BMC": "carbide",
-            "description": "A-BRAND 1/4 - 3/4 DOC",
+            "description": "A-BRAND 1/8-1/2 DOC",
             "expressions": {
                 "tool_bodyLength": "0.625 in",
-                "tool_description": "'A-BRAND 1/4 - 3/4 DOC'",
+                "tool_description": "'A-BRAND 1/8-1/2 DOC'",
                 "tool_diameter": "0.125 in",
                 "tool_fluteLength": "0.5 in",
                 "tool_live": "false",
@@ -428,17 +428,17 @@
                     },
                     {
                         "expressions": {
-                            "tool_feedCutting": "135 inpm",
+                            "tool_feedCutting": "125 inpm",
                             "tool_feedPlunge": "10 inpm",
-                            "tool_feedRamp": "15 inpm",
+                            "tool_feedRamp": "30  inpm",
                             "tool_spindleSpeed": "10200 rpm",
                             "tool_stepdown": "0.5 in",
-                            "tool_stepover": "0.0096 in",
+                            "tool_stepover": "0.0038 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
                         "f_n": 0.000980392156862745,
-                        "f_z": 0.004411764705882353,
+                        "f_z": 0.004084967320261438,
                         "guid": "5df2c900-044c-46ca-a233-cd0b5e5f5fa3",
                         "material": {
                             "category": "all",
@@ -450,17 +450,17 @@
                         "name": "0.251-0.500 DOC",
                         "ramp-angle": 2,
                         "stepdown": 0.5,
-                        "stepover": 0.0096,
+                        "stepover": 0.0038,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 333.79421944391544,
-                        "v_f": 135,
-                        "v_f_leadIn": 135,
-                        "v_f_leadOut": 135,
+                        "v_f": 125,
+                        "v_f_leadIn": 125,
+                        "v_f_leadOut": 125,
                         "v_f_plunge": 10,
-                        "v_f_ramp": 15,
-                        "v_f_transition": 135
+                        "v_f_ramp": 30,
+                        "v_f_transition": 125
                     }
                 ]
             },
@@ -667,5 +667,5 @@
             "vendor": ""
         }
     ],
-    "version": 35
+    "version": 36
 }

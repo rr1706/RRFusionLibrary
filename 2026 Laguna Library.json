@@ -1609,6 +1609,79 @@
             "type": "chamfer mill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "Wood 3/16\" bit",
+            "expressions": {
+                "tool_description": "'Wood 3/16\" bit'",
+                "tool_diameter": "3/16 in",
+                "tool_material": "'carbide'",
+                "tool_numberOfFlutes": "1"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.1875,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 1,
+                "OAL": 1.5,
+                "SFDM": 0.1875,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.1875,
+                "shoulder-length": 0.875
+            },
+            "guid": "eacb408c-7b1a-438a-893d-b885e16d9b3f",
+            "last_modified": 1768873519129,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 6,
+                "length-offset": 6,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 6,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "150 inpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.0005555555555555556,
+                        "f_z": 0.006249999999999999,
+                        "guid": "7fd32203-148d-49b6-9485-c7c2dbc12a13",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1178.0972450961722,
+                        "v_f": 150,
+                        "v_f_leadIn": 150,
+                        "v_f_leadOut": 150,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 150
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
     "version": 36
