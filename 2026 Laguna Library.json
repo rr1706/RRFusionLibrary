@@ -373,7 +373,7 @@
                 "presets": [
                     {
                         "expressions": {
-                            "tool_feedCutting": "52.17 inpm",
+                            "tool_feedCutting": "54.25 inpm",
                             "tool_feedPlunge": "15 inpm",
                             "tool_feedRamp": "20 inpm",
                             "tool_spindleSpeed": "24000 rpm",
@@ -383,7 +383,7 @@
                             "use_tool_stepover": "true"
                         },
                         "f_n": 0.000625,
-                        "f_z": 0.00217375,
+                        "f_z": 0.0022604166666666667,
                         "guid": "5f4c520a-3e26-4e87-aef6-8a3685532f20",
                         "material": {
                             "category": "all",
@@ -400,62 +400,27 @@
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 1484.217001695965,
-                        "v_f": 52.17,
-                        "v_f_leadIn": 52.17,
-                        "v_f_leadOut": 52.17,
+                        "v_f": 54.25,
+                        "v_f_leadIn": 54.25,
+                        "v_f_leadOut": 54.25,
                         "v_f_plunge": 15,
                         "v_f_ramp": 20,
-                        "v_f_transition": 52.17
+                        "v_f_transition": 54.25
                     },
                     {
                         "expressions": {
-                            "tool_feedCutting": "55.17 inpm",
+                            "tool_feedCutting": "73.85 inpm",
                             "tool_feedPlunge": "15 inpm",
                             "tool_feedRamp": "20 inpm",
-                            "tool_spindleSpeed": "24000 rpm",
-                            "tool_stepdown": "0.25 in",
-                            "tool_stepover": "0.0826 in",
-                            "use_tool_stepdown": "true",
-                            "use_tool_stepover": "true"
-                        },
-                        "f_n": 0.000625,
-                        "f_z": 0.00229875,
-                        "guid": "e642583a-4cc7-499b-96c6-f404959d9078",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 24000,
-                        "n_ramp": 24000,
-                        "name": "0.126-0.250 AL Adaptive",
-                        "ramp-angle": 2,
-                        "stepdown": 0.25,
-                        "stepover": 0.0826,
-                        "tool-coolant": "flood",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 1484.217001695965,
-                        "v_f": 55.17,
-                        "v_f_leadIn": 55.17,
-                        "v_f_leadOut": 55.17,
-                        "v_f_plunge": 15,
-                        "v_f_ramp": 20,
-                        "v_f_transition": 55.17
-                    },
-                    {
-                        "expressions": {
-                            "tool_feedCutting": "63.41 inpm",
-                            "tool_feedPlunge": "15 inpm",
-                            "tool_feedRamp": "20 inpm",
+                            "tool_rampAngle": "4 degrees",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "0.375 in",
-                            "tool_stepover": "0.0566 in",
+                            "tool_stepover": "0.0472 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
                         "f_n": 0.000625,
-                        "f_z": 0.002642083333333333,
+                        "f_z": 0.0030770833333333327,
                         "guid": "bbf3f32b-651a-4001-b628-536b60c774e2",
                         "material": {
                             "category": "all",
@@ -464,20 +429,20 @@
                         },
                         "n": 24000,
                         "n_ramp": 24000,
-                        "name": "0.251-0.375 AL Adaptive",
-                        "ramp-angle": 2,
+                        "name": "0.126-0.375 AL Adaptive",
+                        "ramp-angle": 4,
                         "stepdown": 0.375,
-                        "stepover": 0.0566,
+                        "stepover": 0.0472,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 1484.217001695965,
-                        "v_f": 63.41,
-                        "v_f_leadIn": 63.41,
-                        "v_f_leadOut": 63.41,
+                        "v_f": 73.85,
+                        "v_f_leadIn": 73.85,
+                        "v_f_leadOut": 73.85,
                         "v_f_plunge": 15,
                         "v_f_ramp": 20,
-                        "v_f_transition": 63.41
+                        "v_f_transition": 73.85
                     },
                     {
                         "expressions": {
@@ -689,7 +654,7 @@
                     },
                     {
                         "expressions": {
-                            "tool_feedCutting": "150 inpm",
+                            "tool_feedCutting": "157 inpm",
                             "tool_feedPlunge": "40 inpm",
                             "tool_feedRamp": "75 inpm",
                             "tool_rampAngle": "4 degrees",
@@ -700,7 +665,7 @@
                             "use_tool_stepover": "true"
                         },
                         "f_n": 0.0016666666666666666,
-                        "f_z": 0.006249999999999999,
+                        "f_z": 0.006541666666666667,
                         "guid": "6eaa641f-3a1e-4d92-a859-bfc663a9fdeb",
                         "material": {
                             "category": "all",
@@ -717,16 +682,16 @@
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 1484.217001695965,
-                        "v_f": 150,
-                        "v_f_leadIn": 150,
-                        "v_f_leadOut": 150,
+                        "v_f": 157,
+                        "v_f_leadIn": 157,
+                        "v_f_leadOut": 157,
                         "v_f_plunge": 40,
                         "v_f_ramp": 75,
-                        "v_f_transition": 150
+                        "v_f_transition": 157
                     },
                     {
                         "expressions": {
-                            "tool_feedCutting": "85 inpm",
+                            "tool_feedCutting": "157 inpm",
                             "tool_feedPlunge": "40 inpm",
                             "tool_feedRamp": "70 inpm",
                             "tool_rampAngle": "4 degrees",
@@ -737,7 +702,7 @@
                             "use_tool_stepover": "false"
                         },
                         "f_n": 0.0016666666666666666,
-                        "f_z": 0.0035416666666666665,
+                        "f_z": 0.006541666666666667,
                         "guid": "2fcf3ec4-6ffb-4330-81fc-ab779058a044",
                         "material": {
                             "category": "all",
@@ -753,12 +718,12 @@
                         "use-stepdown": true,
                         "use-stepover": false,
                         "v_c": 1484.217001695965,
-                        "v_f": 85,
-                        "v_f_leadIn": 85,
-                        "v_f_leadOut": 85,
+                        "v_f": 157,
+                        "v_f_leadIn": 157,
+                        "v_f_leadOut": 157,
                         "v_f_plunge": 40,
                         "v_f_ramp": 70,
-                        "v_f_transition": 85
+                        "v_f_transition": 157
                     }
                 ]
             },
@@ -1139,17 +1104,18 @@
                 "presets": [
                     {
                         "expressions": {
-                            "tool_feedCutting": "44.97 inpm",
+                            "tool_feedCutting": "48.69 inpm",
                             "tool_feedPlunge": "15 inpm",
-                            "tool_feedRamp": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_rampAngle": "3.5 degrees",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "0.125 in",
-                            "tool_stepover": "0.0393 in",
+                            "tool_stepover": "0.0314 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
                         "f_n": 0.000625,
-                        "f_z": 0.00187375,
+                        "f_z": 0.00202875,
                         "guid": "5f4c520a-3e26-4e87-aef6-8a3685532f20",
                         "material": {
                             "category": "all",
@@ -1159,55 +1125,19 @@
                         "n": 24000,
                         "n_ramp": 24000,
                         "name": "0-0.125 AL Adaptive",
-                        "ramp-angle": 2,
+                        "ramp-angle": 3.5,
                         "stepdown": 0.125,
-                        "stepover": 0.0393,
+                        "stepover": 0.0314,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 989.4780011306434,
-                        "v_f": 44.97,
-                        "v_f_leadIn": 44.97,
-                        "v_f_leadOut": 44.97,
+                        "v_f": 48.69,
+                        "v_f_leadIn": 48.69,
+                        "v_f_leadOut": 48.69,
                         "v_f_plunge": 15,
-                        "v_f_ramp": 15,
-                        "v_f_transition": 44.97
-                    },
-                    {
-                        "expressions": {
-                            "tool_feedCutting": "59.93 inpm",
-                            "tool_feedPlunge": "15 inpm",
-                            "tool_feedRamp": "15 inpm",
-                            "tool_spindleSpeed": "24000 rpm",
-                            "tool_stepdown": "0.25 in",
-                            "tool_stepover": "0.0188 in",
-                            "use_tool_stepdown": "true",
-                            "use_tool_stepover": "true"
-                        },
-                        "f_n": 0.000625,
-                        "f_z": 0.002497083333333333,
-                        "guid": "e642583a-4cc7-499b-96c6-f404959d9078",
-                        "material": {
-                            "category": "all",
-                            "query": "",
-                            "use-hardness": false
-                        },
-                        "n": 24000,
-                        "n_ramp": 24000,
-                        "name": "0.126-0.250 AL Adaptive",
-                        "ramp-angle": 2,
-                        "stepdown": 0.25,
-                        "stepover": 0.0188,
-                        "tool-coolant": "flood",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 989.4780011306434,
-                        "v_f": 59.93,
-                        "v_f_leadIn": 59.93,
-                        "v_f_leadOut": 59.93,
-                        "v_f_plunge": 15,
-                        "v_f_ramp": 15,
-                        "v_f_transition": 59.93
+                        "v_f_ramp": 20,
+                        "v_f_transition": 48.69
                     },
                     {
                         "expressions": {
@@ -1230,7 +1160,7 @@
                         },
                         "n": 24000,
                         "n_ramp": 24000,
-                        "name": "0.251-0.375 AL Adaptive",
+                        "name": "0.126-0.375 AL Adaptive",
                         "ramp-angle": 2,
                         "stepdown": 0.375,
                         "stepover": 0.0126,
@@ -1420,17 +1350,17 @@
                     },
                     {
                         "expressions": {
-                            "tool_feedCutting": "140 inpm",
+                            "tool_feedCutting": "157 inpm",
                             "tool_feedPlunge": "30 inpm",
                             "tool_feedRamp": "70 inpm",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "0.250 in",
-                            "tool_stepover": "0.0314 in",
+                            "tool_stepover": "0.079 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
                         "f_n": 0.00125,
-                        "f_z": 0.005833333333333333,
+                        "f_z": 0.006541666666666667,
                         "guid": "125aa45c-f802-4bbf-94aa-c95606da7d33",
                         "material": {
                             "category": "all",
@@ -1442,22 +1372,22 @@
                         "name": "Poly Adaptive",
                         "ramp-angle": 2,
                         "stepdown": 0.25,
-                        "stepover": 0.0314,
+                        "stepover": 0.079,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 989.4780011306434,
-                        "v_f": 140,
-                        "v_f_leadIn": 140,
-                        "v_f_leadOut": 140,
+                        "v_f": 157,
+                        "v_f_leadIn": 157,
+                        "v_f_leadOut": 157,
                         "v_f_plunge": 30,
                         "v_f_ramp": 70,
-                        "v_f_transition": 140
+                        "v_f_transition": 157
                     },
                     {
                         "expressions": {
                             "tool_coolant": "'disabled'",
-                            "tool_feedCutting": "75 inpm",
+                            "tool_feedCutting": "157 inpm",
                             "tool_feedPlunge": "40 inpm",
                             "tool_feedRamp": "75 inpm",
                             "tool_rampAngle": "4 degrees",
@@ -1468,7 +1398,7 @@
                             "use_tool_stepover": "false"
                         },
                         "f_n": 0.0016666666666666666,
-                        "f_z": 0.0031249999999999993,
+                        "f_z": 0.006541666666666667,
                         "guid": "f2aca390-5fdc-4acc-bf64-df4157b94974",
                         "material": {
                             "category": "all",
@@ -1483,17 +1413,17 @@
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 989.4780011306434,
-                        "v_f": 75,
-                        "v_f_leadIn": 75,
-                        "v_f_leadOut": 75,
+                        "v_f": 157,
+                        "v_f_leadIn": 157,
+                        "v_f_leadOut": 157,
                         "v_f_plunge": 40,
                         "v_f_ramp": 75,
-                        "v_f_transition": 75
+                        "v_f_transition": 157
                     },
                     {
                         "expressions": {
                             "tool_coolant": "'disabled'",
-                            "tool_feedCutting": "75 inpm",
+                            "tool_feedCutting": "157 inpm",
                             "tool_feedPlunge": "40 inpm",
                             "tool_feedRamp": "75 inpm",
                             "tool_rampAngle": "4 degrees",
@@ -1504,7 +1434,7 @@
                             "use_tool_stepover": "false"
                         },
                         "f_n": 0.0016666666666666666,
-                        "f_z": 0.0031249999999999993,
+                        "f_z": 0.006541666666666667,
                         "guid": "12ad17f3-df92-4416-8013-e76d49855032",
                         "material": {
                             "category": "all",
@@ -1519,12 +1449,12 @@
                         "use-stepdown": false,
                         "use-stepover": false,
                         "v_c": 989.4780011306434,
-                        "v_f": 75,
-                        "v_f_leadIn": 75,
-                        "v_f_leadOut": 75,
+                        "v_f": 157,
+                        "v_f_leadIn": 157,
+                        "v_f_leadOut": 157,
                         "v_f_plunge": 40,
                         "v_f_ramp": 75,
-                        "v_f_transition": 75
+                        "v_f_transition": 157
                     }
                 ]
             },
