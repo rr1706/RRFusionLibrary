@@ -378,7 +378,7 @@
                             "tool_feedRamp": "20 inpm",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "0.125 in",
-                            "tool_stepover": "0.0944 in",
+                            "tool_stepover": "0.085 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
@@ -395,7 +395,7 @@
                         "name": "0-0.125 AL Adaptive",
                         "ramp-angle": 2,
                         "stepdown": 0.125,
-                        "stepover": 0.0944,
+                        "stepover": 0.085,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
@@ -415,7 +415,7 @@
                             "tool_rampAngle": "4 degrees",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "0.375 in",
-                            "tool_stepover": "0.0472 in",
+                            "tool_stepover": "0.040 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
@@ -432,7 +432,7 @@
                         "name": "0.126-0.375 AL Adaptive",
                         "ramp-angle": 4,
                         "stepdown": 0.375,
-                        "stepover": 0.0472,
+                        "stepover": 0.04,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
@@ -966,9 +966,9 @@
                 "presets": [
                     {
                         "expressions": {
-                            "tool_feedPlunge": "83.74 inpm",
-                            "tool_feedRetract": "83.74 inpm",
-                            "tool_spindleSpeed": "16000 rpm",
+                            "tool_feedPlunge": "25 inpm",
+                            "tool_feedRetract": "60 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
                             "tool_useFeedPerRevolution": "false"
                         },
                         "guid": "01d36819-9327-4b8b-a7d9-dc8e22d8f6a3",
@@ -977,13 +977,13 @@
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 16000,
+                        "n": 24000,
                         "name": "Default preset",
                         "tool-coolant": "flood",
                         "use-feed-per-revolution": false,
-                        "v_c": 821.0028801381327,
-                        "v_f_plunge": 83.74,
-                        "v_f_retract": 83.74
+                        "v_c": 1231.5043202071988,
+                        "v_f_plunge": 25,
+                        "v_f_retract": 60
                     }
                 ]
             },
@@ -1034,9 +1034,9 @@
                 "presets": [
                     {
                         "expressions": {
-                            "tool_feedPlunge": "83.74 inpm",
-                            "tool_feedRetract": "83.74 inpm",
-                            "tool_spindleSpeed": "19600 rpm",
+                            "tool_feedPlunge": "25 inpm",
+                            "tool_feedRetract": "60 inpm",
+                            "tool_spindleSpeed": "24000 rpm",
                             "tool_useFeedPerRevolution": "false"
                         },
                         "guid": "01d36819-9327-4b8b-a7d9-dc8e22d8f6a3",
@@ -1045,13 +1045,13 @@
                             "query": "",
                             "use-hardness": false
                         },
-                        "n": 19600,
+                        "n": 24000,
                         "name": "Default preset",
                         "tool-coolant": "flood",
                         "use-feed-per-revolution": false,
-                        "v_c": 815.8716121372694,
-                        "v_f_plunge": 83.74,
-                        "v_f_retract": 83.74
+                        "v_c": 999.0264638415542,
+                        "v_f_plunge": 25,
+                        "v_f_retract": 60
                     }
                 ]
             },
@@ -1110,7 +1110,7 @@
                             "tool_rampAngle": "3.5 degrees",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "0.125 in",
-                            "tool_stepover": "0.0314 in",
+                            "tool_stepover": "0.028 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
@@ -1127,7 +1127,7 @@
                         "name": "0-0.125 AL Adaptive",
                         "ramp-angle": 3.5,
                         "stepdown": 0.125,
-                        "stepover": 0.0314,
+                        "stepover": 0.028,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
@@ -1146,7 +1146,7 @@
                             "tool_feedRamp": "15 inpm",
                             "tool_spindleSpeed": "24000 rpm",
                             "tool_stepdown": "0.375 in",
-                            "tool_stepover": "0.0126 in",
+                            "tool_stepover": "0.010 in",
                             "use_tool_stepdown": "true",
                             "use_tool_stepover": "true"
                         },
@@ -1163,7 +1163,7 @@
                         "name": "0.126-0.375 AL Adaptive",
                         "ramp-angle": 2,
                         "stepdown": 0.375,
-                        "stepover": 0.0126,
+                        "stepover": 0.01,
                         "tool-coolant": "flood",
                         "use-stepdown": true,
                         "use-stepover": true,
