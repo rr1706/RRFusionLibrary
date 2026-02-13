@@ -665,6 +665,82 @@
             "type": "chamfer mill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "Ball End 1/4-1 DOC",
+            "expressions": {
+                "tool_description": "'Ball End 1/4-1 DOC'",
+                "tool_number": "451",
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.25,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.75,
+                "NOF": 2,
+                "OAL": 1.5,
+                "SFDM": 0.25,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.25,
+                "shoulder-length": 0.875
+            },
+            "guid": "4f529a64-9454-4213-bd28-d4ac03b29716",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 451,
+                "length-offset": 451,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 451,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "75 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": ".49 in",
+                            "tool_stepover": ".025 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.00130718954248366,
+                        "f_z": 0.0036764705882352936,
+                        "guid": "87be9ed1-36da-4eb1-b302-09aadc33c7d3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "stepdown": 0.49,
+                        "stepover": 0.025,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 667.588438887831,
+                        "v_f": 75,
+                        "v_f_leadIn": 75,
+                        "v_f_leadOut": 75,
+                        "v_f_plunge": 13.333333333333334,
+                        "v_f_ramp": 13.333333333333334,
+                        "v_f_transition": 75
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
     "version": 36

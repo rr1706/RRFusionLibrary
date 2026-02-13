@@ -1000,7 +1000,7 @@
                 "tool_diameter": "0.159 in",
                 "tool_fluteLength": "0.75 in",
                 "tool_material": "'carbide'",
-                "tool_number": "5",
+                "tool_number": "4",
                 "tool_overallLength": "3 in",
                 "tool_shoulderLength": "1 in"
             },
@@ -1021,11 +1021,11 @@
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 5,
-                "length-offset": 5,
+                "diameter-offset": 4,
+                "length-offset": 4,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 5,
+                "number": 4,
                 "turret": 0
             },
             "product-id": "",
