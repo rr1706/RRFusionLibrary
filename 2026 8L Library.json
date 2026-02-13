@@ -1,0 +1,161 @@
+{
+    "data": [
+        {
+            "BMC": "carbide",
+            "description": "Parting Tool .078\"",
+            "expressions": {
+                "tool_cornerRadius": "0 in",
+                "tool_description": "'Parting Tool .078\"'",
+                "tool_grooveWidth": "0.078 in",
+                "tool_insertWidth": "0.078 in",
+                "tool_number": "5",
+                "tool_overallLength": "0.5 in"
+            },
+            "geometry": {
+                "LH": 0.15625,
+                "OAL": 0.5,
+                "RE": 0,
+                "S": 0.375,
+                "SC": "groove square",
+                "SCTY": "T",
+                "TC": "M",
+                "tool_grooveWidth": 0.078,
+                "tool_insertWidth": 0.078
+            },
+            "guid": "ef12843f-f402-4f56-86d8-9811f0cb9c8c",
+            "holder": {
+                "H": 0.8,
+                "HAND": "R",
+                "LH": 1.28,
+                "MTP": "D",
+                "OAL": 5,
+                "THSC": "groove external",
+                "W": 0.8,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 5,
+                "manual-tool-change": false,
+                "number": 5,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false,
+                "tool_shaftAxisAngle": 0
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCuttingRel": "0.002 in",
+                            "tool_surfaceSpeed": "200 fpm"
+                        },
+                        "f_n": 0.002,
+                        "f_n_leadIn": 0.002,
+                        "f_n_leadOut": 0.002,
+                        "guid": "017c5571-2f9a-4f24-950f-54918b0589aa",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning grooving",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "Groove Tool .038\"",
+            "expressions": {
+                "tool_cornerRadius": "0 in",
+                "tool_description": "'Groove Tool .038\"'",
+                "tool_grooveWidth": "0.038 in",
+                "tool_insertWidth": "0.038 in",
+                "tool_number": "6",
+                "tool_overallLength": "0.5 in"
+            },
+            "geometry": {
+                "LH": 0.15625,
+                "OAL": 0.5,
+                "RE": 0,
+                "S": 0.375,
+                "SC": "groove square",
+                "SCTY": "T",
+                "TC": "M",
+                "tool_grooveWidth": 0.038,
+                "tool_insertWidth": 0.038
+            },
+            "guid": "4b243d9f-190a-41aa-b719-6fa11f007f84",
+            "holder": {
+                "H": 0.8,
+                "HAND": "R",
+                "LH": 1.28,
+                "MTP": "D",
+                "OAL": 5,
+                "THSC": "groove external",
+                "W": 0.8,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 6,
+                "manual-tool-change": false,
+                "number": 6,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false,
+                "tool_shaftAxisAngle": 0
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCuttingRel": "0.002 in",
+                            "tool_surfaceSpeed": "200 fpm"
+                        },
+                        "f_n": 0.002,
+                        "f_n_leadIn": 0.002,
+                        "f_n_leadOut": 0.002,
+                        "guid": "017c5571-2f9a-4f24-950f-54918b0589aa",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-feed-per-revolution": true,
+                        "v_c": 200
+                    }
+                ]
+            },
+            "type": "turning grooving",
+            "unit": "inches",
+            "vendor": ""
+        }
+    ],
+    "version": 36
+}
