@@ -155,6 +155,135 @@
             "type": "turning grooving",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "LH FACE TURN",
+            "expressions": {
+                "tool_cornerRadius": "0.032 in",
+                "tool_description": "'LH FACE TURN'",
+                "tool_number": "10"
+            },
+            "geometry": {
+                "INSD": 0.375,
+                "RA": 0,
+                "RE": 0.032,
+                "S": 0.375,
+                "SC": "C",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "IC",
+                "TC": "M"
+            },
+            "guid": "268a1c3c-a055-43c5-a384-1a684cff2be8",
+            "holder": {
+                "CW": 1,
+                "H": 0.8,
+                "HAND": "R",
+                "LH": 1.28,
+                "MTP": "D",
+                "OAL": 5,
+                "THSC": "L",
+                "W": 0.8,
+                "tool_roundShank": false
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 10,
+                "manual-tool-change": false,
+                "number": 10,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent",
+                "tool_shaftAxisAngle": 0
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.005,
+                        "f_n_leadIn": 0.005,
+                        "f_n_leadOut": 0.005,
+                        "guid": "e41d299b-16d0-47ee-8124-e08b6c5ed225",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 656.1679790026246
+                    }
+                ]
+            },
+            "type": "turning general",
+            "unit": "inches",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "10-32 tap",
+            "expressions": {
+                "tool_description": "'10-32 tap'",
+                "tool_diameter": "0.159 in",
+                "tool_material": "'carbide'",
+                "tool_number": "38",
+                "tool_numberOfFlutes": "2",
+                "tool_threadPitch": "(1/32) in"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.159,
+                "LB": 2,
+                "LCF": 0.8,
+                "NOF": 2,
+                "OAL": 2,
+                "SFDM": 0.159,
+                "TP": 0.03125,
+                "assemblyGaugeLength": 2,
+                "shoulder-length": 1.2
+            },
+            "guid": "f78265b5-993a-4e9a-a17a-4bfbc1209b31",
+            "last_modified": 1771090462226,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 38,
+                "length-offset": 38,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 38,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "guid": "7b571ac5-4335-415e-afb9-f1f125623595",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 500,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "v_c": 20.81305133003238
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "inches",
+            "vendor": ""
         }
     ],
     "version": 36
