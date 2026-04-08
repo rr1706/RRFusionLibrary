@@ -597,12 +597,12 @@
                 "tool_bodyLength": ".8125 in",
                 "tool_diameter": ".25 in",
                 "tool_fluteLength": ".125 in",
-                "tool_inclusiveAngle": "60 degrees",
                 "tool_material": "'carbide'",
                 "tool_number": "401",
                 "tool_numberOfFlutes": "4",
                 "tool_shaftDiameter": "0.25 in",
-                "tool_shoulderLength": ".8125 in"
+                "tool_shoulderLength": ".8125 in",
+                "tool_taperAngle": "45 degrees"
             },
             "geometry": {
                 "CSP": false,
@@ -613,14 +613,13 @@
                 "NOF": 4,
                 "OAL": 3,
                 "SFDM": 0.25,
-                "TA": 30,
+                "TA": 45,
                 "assemblyGaugeLength": 0.8125,
                 "shoulder-diameter": 0.25,
                 "shoulder-length": 0.8125,
                 "tip-diameter": 0
             },
             "guid": "13ad8a0c-89dd-4600-8c8b-b92e55c031cd",
-            "last_modified": 1758156684432,
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -633,7 +632,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -741,6 +739,125 @@
             "type": "ball end mill",
             "unit": "inches",
             "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "A-BRAND 4mm - 20mm DOC",
+            "expressions": {
+                "tool_description": "'A-BRAND 4mm - 20mm DOC'",
+                "tool_diameter": "4mm",
+                "tool_fluteLength": "20mm",
+                "tool_live": "false",
+                "tool_material": "'carbide'",
+                "tool_number": "151",
+                "tool_numberOfFlutes": "3",
+                "tool_vendor": "'OSG'"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 0.15748031496062992,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.7874015748031497,
+                "NOF": 3,
+                "OAL": 1.5,
+                "SFDM": 0.15748031496062992,
+                "assemblyGaugeLength": 1,
+                "shoulder-diameter": 0.15748031496062992,
+                "shoulder-length": 0.875
+            },
+            "guid": "ede39b5c-fe85-4c17-a63e-a2cfd6fbbcaf",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 151,
+                "length-offset": 151,
+                "live": false,
+                "manual-tool-change": false,
+                "number": 151,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "91.47 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "0.375 in",
+                            "tool_stepover": "0.0079 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0014705882352941176,
+                        "f_z": 0.00298921568627451,
+                        "guid": "f6f19b23-32fe-4f93-bc5f-867339a03c9b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "0.063-0.375 DOC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.375,
+                        "stepover": 0.0079,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 420.5281504805235,
+                        "v_f": 91.47,
+                        "v_f_leadIn": 91.47,
+                        "v_f_leadOut": 91.47,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 91.47
+                    },
+                    {
+                        "expressions": {
+                            "tool_feedCutting": "135 inpm",
+                            "tool_feedPlunge": "15 inpm",
+                            "tool_feedRamp": "20 inpm",
+                            "tool_spindleSpeed": "10200 rpm",
+                            "tool_stepdown": "0.75 in",
+                            "tool_stepover": "0.0034 in",
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0014705882352941176,
+                        "f_z": 0.004411764705882353,
+                        "guid": "5df2c900-044c-46ca-a233-cd0b5e5f5fa3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10200,
+                        "n_ramp": 10200,
+                        "name": "0.376-0.750 DOC",
+                        "ramp-angle": 2,
+                        "stepdown": 0.75,
+                        "stepover": 0.0034,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 420.5281504805235,
+                        "v_f": 135,
+                        "v_f_leadIn": 135,
+                        "v_f_leadOut": 135,
+                        "v_f_plunge": 15,
+                        "v_f_ramp": 20,
+                        "v_f_transition": 135
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "inches",
+            "vendor": "OSG"
         }
     ],
     "version": 36
